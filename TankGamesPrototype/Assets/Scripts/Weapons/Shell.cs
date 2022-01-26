@@ -30,7 +30,8 @@ namespace Com.COLORSGAMES.TANKGAMES
 
         void Dead()
         {
-            PhotonNetwork.Instantiate(explosionPrefab.name, transform.position, Quaternion.identity);
+            if (PhotonNetwork.IsMasterClient)
+                PhotonNetwork.Instantiate(explosionPrefab.name, transform.position, Quaternion.identity);
             Instantiate(effectPrefab, transform.position, Quaternion.identity);
             Destroy(this.gameObject);
         }
