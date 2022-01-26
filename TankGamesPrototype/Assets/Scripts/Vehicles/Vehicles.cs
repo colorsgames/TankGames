@@ -31,6 +31,18 @@ namespace Com.COLORSGAMES.TANKGAMES
 
         float torqueSpeed;
 
+        protected virtual void Start()
+        {
+            //tower = GameObject.FindObjectOfType<Tower>();
+            RigidB = GetComponent<Rigidbody>();
+            centerOfMass = GameObject.Find("CenterOfMass").transform;
+            curretHealth = maxHealth;
+            playerControllPanel = GameObject.Find("PlayerControllers");
+            Alive = true;
+            SetCenterOfMass(RigidB, centerOfMass);
+            SetWheelsColliders();
+        }
+
         public virtual void Acceleration()
         {
             foreach (AxleInfo item in axleInfos)

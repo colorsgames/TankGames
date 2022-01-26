@@ -12,15 +12,10 @@ namespace Com.COLORSGAMES.TANKGAMES
         Tower tower;
         CamController camController;
 
-        private void Start()
+        protected override void Start()
         {
-            //tower = GameObject.FindObjectOfType<Tower>();
-            RigidB = GetComponent<Rigidbody>();
-            centerOfMass = GameObject.Find("CenterOfMass").transform;
-            curretHealth = maxHealth;
+            base.Start();
             camController = Camera.main.GetComponent<CamController>();
-            playerControllPanel = GameObject.Find("PlayerControllers");
-            Alive = true;
             if (camController != null)
             {
                 if (photonView.IsMine)
@@ -32,8 +27,6 @@ namespace Com.COLORSGAMES.TANKGAMES
             {
                 Debug.LogError("camController is null", this);
             }
-            SetCenterOfMass(RigidB, centerOfMass);
-            SetWheelsColliders();
         }
 
         private void Update()
