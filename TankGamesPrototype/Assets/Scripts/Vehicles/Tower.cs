@@ -12,7 +12,7 @@ namespace Com.COLORSGAMES.TANKGAMES
 
         CamController cam;
 
-        private void Start()
+        private void Awake()
         {
             //target = GameObject.Find("TowerTarget").transform;
             gun = GameObject.Find("Gun").transform;
