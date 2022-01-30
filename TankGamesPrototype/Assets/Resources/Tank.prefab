@@ -1509,7 +1509,7 @@ MonoBehaviour:
   ObservedComponentsFoldoutOpen: 1
   Group: 0
   prefixField: -1
-  Synchronization: 3
+  Synchronization: 1
   OwnershipTransfer: 0
   observableSearch: 2
   ObservedComponents:
@@ -1838,7 +1838,6 @@ MonoBehaviour:
   ObservedComponents:
   - {fileID: 5735167589128594597}
   - {fileID: 8279445454597657163}
-  - {fileID: 0}
   - {fileID: 5697391832476622524}
   - {fileID: 1769626064426396248}
   sceneViewId: 0
@@ -2601,7 +2600,7 @@ MonoBehaviour:
   ObservedComponentsFoldoutOpen: 1
   Group: 0
   prefixField: -1
-  Synchronization: 3
+  Synchronization: 1
   OwnershipTransfer: 0
   observableSearch: 2
   ObservedComponents:

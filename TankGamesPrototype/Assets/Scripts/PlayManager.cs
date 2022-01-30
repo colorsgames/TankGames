@@ -22,8 +22,6 @@ namespace Com.COLORSGAMES.TANKGAMES
         private void Start()
         {
             curretScene = SceneManager.GetActiveScene();
-            PhotonNetwork.SendRate = 60;
-            PhotonNetwork.SerializationRate = 60;
             PhotonNetwork.Instantiate(playerPrefab.name, new Vector3(Random.Range(-8, 8), 3, 0), Quaternion.identity, 0);
         }
         public void RestartScene()

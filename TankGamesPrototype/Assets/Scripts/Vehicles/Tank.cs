@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 namespace Com.COLORSGAMES.TANKGAMES
 {
@@ -15,6 +16,8 @@ namespace Com.COLORSGAMES.TANKGAMES
         protected override void Start()
         {
             base.Start();
+            PhotonNetwork.SendRate = 60;
+            PhotonNetwork.SerializationRate = 60;
             camController = Camera.main.GetComponent<CamController>();
             if (camController != null)
             {
