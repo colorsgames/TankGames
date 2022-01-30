@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 7176544775093581051}
   - component: {fileID: 3456914543673409975}
   - component: {fileID: 8427268472326734941}
-  - component: {fileID: 7177093366358781927}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.034"
   m_TagString: WallParticle
@@ -247,22 +246,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &7177093366358781927
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 328083710357729973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &530245333231857444
 GameObject:
   m_ObjectHideFlags: 0
@@ -279,7 +262,6 @@ GameObject:
   - component: {fileID: 2907257737712047500}
   - component: {fileID: 1822102354286198525}
   - component: {fileID: 908709478296784662}
-  - component: {fileID: 7091165925137807084}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.036"
   m_TagString: WallParticle
@@ -510,22 +492,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &7091165925137807084
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 530245333231857444}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &554559603794796998
 GameObject:
   m_ObjectHideFlags: 0
@@ -542,7 +508,6 @@ GameObject:
   - component: {fileID: 6695777947251107621}
   - component: {fileID: 82843142443311487}
   - component: {fileID: 3571806578382778328}
-  - component: {fileID: 2359587428961575161}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.010"
   m_TagString: WallParticle
@@ -773,22 +738,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2359587428961575161
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 554559603794796998}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &644472319211587322
 GameObject:
   m_ObjectHideFlags: 0
@@ -805,7 +754,6 @@ GameObject:
   - component: {fileID: 3237848555305506605}
   - component: {fileID: 7594138554100839967}
   - component: {fileID: 175281204153748423}
-  - component: {fileID: 2917194660702137345}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.013"
   m_TagString: WallParticle
@@ -1036,22 +984,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2917194660702137345
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 644472319211587322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &997050754765336054
 GameObject:
   m_ObjectHideFlags: 0
@@ -1068,7 +1000,6 @@ GameObject:
   - component: {fileID: 4475379874024678574}
   - component: {fileID: 6679000347553505264}
   - component: {fileID: 7593371178318889060}
-  - component: {fileID: 6099316525647829991}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.052"
   m_TagString: WallParticle
@@ -1299,22 +1230,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &6099316525647829991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 997050754765336054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &1245655083077321952
 GameObject:
   m_ObjectHideFlags: 0
@@ -1331,7 +1246,6 @@ GameObject:
   - component: {fileID: 5766432777839367551}
   - component: {fileID: 3365743872567087625}
   - component: {fileID: 2065839567881780366}
-  - component: {fileID: 7836612699263237025}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.009"
   m_TagString: WallParticle
@@ -1562,22 +1476,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &7836612699263237025
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1245655083077321952}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &1358563766901370066
 GameObject:
   m_ObjectHideFlags: 0
@@ -1594,7 +1492,6 @@ GameObject:
   - component: {fileID: 2961407220457085532}
   - component: {fileID: 1227252030807068816}
   - component: {fileID: 2531006463930700184}
-  - component: {fileID: 2563254504987420013}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.041"
   m_TagString: WallParticle
@@ -1825,22 +1722,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2563254504987420013
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1358563766901370066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &1604517530830345032
 GameObject:
   m_ObjectHideFlags: 0
@@ -1857,7 +1738,6 @@ GameObject:
   - component: {fileID: 2087464049389151482}
   - component: {fileID: 8782967157955504211}
   - component: {fileID: 8031574745578021663}
-  - component: {fileID: 8402368879696807432}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.028"
   m_TagString: WallParticle
@@ -2088,22 +1968,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &8402368879696807432
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1604517530830345032}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &1633649344297824273
 GameObject:
   m_ObjectHideFlags: 0
@@ -2120,7 +1984,6 @@ GameObject:
   - component: {fileID: 4436382804144217754}
   - component: {fileID: 804792681136885897}
   - component: {fileID: 5412778571757027602}
-  - component: {fileID: 6105602865251155600}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.040"
   m_TagString: WallParticle
@@ -2351,22 +2214,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &6105602865251155600
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1633649344297824273}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &1792605477566147355
 GameObject:
   m_ObjectHideFlags: 0
@@ -2383,7 +2230,6 @@ GameObject:
   - component: {fileID: 1599525435826485913}
   - component: {fileID: 7445921259840499894}
   - component: {fileID: 8330070893451803367}
-  - component: {fileID: 2313144418210298430}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.003"
   m_TagString: WallParticle
@@ -2614,22 +2460,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2313144418210298430
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1792605477566147355}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &1832626262173297311
 GameObject:
   m_ObjectHideFlags: 0
@@ -2646,7 +2476,6 @@ GameObject:
   - component: {fileID: 4710885450069480845}
   - component: {fileID: 2943995354725065883}
   - component: {fileID: 2511024058165173390}
-  - component: {fileID: 6460552649441834438}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.006"
   m_TagString: WallParticle
@@ -2877,22 +2706,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &6460552649441834438
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1832626262173297311}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &1960552165209027710
 GameObject:
   m_ObjectHideFlags: 0
@@ -2909,7 +2722,6 @@ GameObject:
   - component: {fileID: 3180580063800893656}
   - component: {fileID: 5465741432899254482}
   - component: {fileID: 7480088508502298003}
-  - component: {fileID: 2888582918749145642}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.005"
   m_TagString: WallParticle
@@ -3140,22 +2952,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2888582918749145642
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1960552165209027710}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &2038451304428055524
 GameObject:
   m_ObjectHideFlags: 0
@@ -3172,7 +2968,6 @@ GameObject:
   - component: {fileID: 4360347488338770620}
   - component: {fileID: 6855568782428832333}
   - component: {fileID: 2200348652210386661}
-  - component: {fileID: 7833639794699941803}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.053"
   m_TagString: WallParticle
@@ -3403,22 +3198,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &7833639794699941803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2038451304428055524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &2114723673871592086
 GameObject:
   m_ObjectHideFlags: 0
@@ -3435,7 +3214,6 @@ GameObject:
   - component: {fileID: 854236692705640467}
   - component: {fileID: 7948215379892537713}
   - component: {fileID: 1127574663504849407}
-  - component: {fileID: 7455002996725157122}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.047"
   m_TagString: WallParticle
@@ -3666,22 +3444,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &7455002996725157122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2114723673871592086}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &2146198854626687347
 GameObject:
   m_ObjectHideFlags: 0
@@ -3698,7 +3460,6 @@ GameObject:
   - component: {fileID: 7143557922597264295}
   - component: {fileID: 8562452487198061447}
   - component: {fileID: 5887578828077877425}
-  - component: {fileID: 3845087926548730229}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.065"
   m_TagString: WallParticle
@@ -3929,22 +3690,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &3845087926548730229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2146198854626687347}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &2200778657149456004
 GameObject:
   m_ObjectHideFlags: 0
@@ -3961,7 +3706,6 @@ GameObject:
   - component: {fileID: 5421250427492446245}
   - component: {fileID: 272383634129673342}
   - component: {fileID: 2197417949723883370}
-  - component: {fileID: 1549081406690491317}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.016"
   m_TagString: WallParticle
@@ -4192,22 +3936,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1549081406690491317
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2200778657149456004}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &2613907227665666974
 GameObject:
   m_ObjectHideFlags: 0
@@ -4224,7 +3952,6 @@ GameObject:
   - component: {fileID: 6833538086550634367}
   - component: {fileID: 1342005177544331439}
   - component: {fileID: 664393747438118601}
-  - component: {fileID: 654736943604835828}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.057"
   m_TagString: WallParticle
@@ -4455,22 +4182,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &654736943604835828
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2613907227665666974}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &2623445211104154810
 GameObject:
   m_ObjectHideFlags: 0
@@ -4487,7 +4198,6 @@ GameObject:
   - component: {fileID: 2391017984330814878}
   - component: {fileID: 8066240798442161866}
   - component: {fileID: 8581410518227877038}
-  - component: {fileID: 8899927167550572661}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.049"
   m_TagString: WallParticle
@@ -4718,22 +4428,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &8899927167550572661
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2623445211104154810}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &2715598911680910116
 GameObject:
   m_ObjectHideFlags: 0
@@ -4750,7 +4444,6 @@ GameObject:
   - component: {fileID: 4592991334856972418}
   - component: {fileID: 3202803987328412980}
   - component: {fileID: 8418623499142221540}
-  - component: {fileID: 4799646298834533856}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.021"
   m_TagString: WallParticle
@@ -4981,22 +4674,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4799646298834533856
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2715598911680910116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &2890116835079089820
 GameObject:
   m_ObjectHideFlags: 0
@@ -5013,7 +4690,6 @@ GameObject:
   - component: {fileID: 8552085703409746659}
   - component: {fileID: 1174661201389325691}
   - component: {fileID: 5863409033179765393}
-  - component: {fileID: 3579850512533112264}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.042"
   m_TagString: WallParticle
@@ -5244,22 +4920,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &3579850512533112264
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2890116835079089820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &3057909448569439355
 GameObject:
   m_ObjectHideFlags: 0
@@ -5276,7 +4936,6 @@ GameObject:
   - component: {fileID: 8498882996856649479}
   - component: {fileID: 4249477325136601351}
   - component: {fileID: 6778887708848660460}
-  - component: {fileID: 347724189378867570}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.069"
   m_TagString: WallParticle
@@ -5507,22 +5166,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &347724189378867570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3057909448569439355}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &3298575576720879359
 GameObject:
   m_ObjectHideFlags: 0
@@ -5539,7 +5182,6 @@ GameObject:
   - component: {fileID: 4924816093764430139}
   - component: {fileID: 7571870093028695685}
   - component: {fileID: 363990589847996108}
-  - component: {fileID: 829578429561489255}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.048"
   m_TagString: WallParticle
@@ -5770,22 +5412,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &829578429561489255
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3298575576720879359}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &3485880389416821906
 GameObject:
   m_ObjectHideFlags: 0
@@ -5802,7 +5428,6 @@ GameObject:
   - component: {fileID: 8716728677916147474}
   - component: {fileID: 5837612481544742321}
   - component: {fileID: 8200500762777370038}
-  - component: {fileID: 3173534378777916295}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.066"
   m_TagString: WallParticle
@@ -6033,22 +5658,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &3173534378777916295
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3485880389416821906}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &3637167198118485678
 GameObject:
   m_ObjectHideFlags: 0
@@ -6065,7 +5674,6 @@ GameObject:
   - component: {fileID: 3465828783019911239}
   - component: {fileID: 7628469721978915301}
   - component: {fileID: 3346541722687512798}
-  - component: {fileID: 9197095789134943668}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.024"
   m_TagString: WallParticle
@@ -6296,22 +5904,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &9197095789134943668
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3637167198118485678}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &3967450593772754393
 GameObject:
   m_ObjectHideFlags: 0
@@ -6328,7 +5920,6 @@ GameObject:
   - component: {fileID: 7496707239837865371}
   - component: {fileID: 349504183305195999}
   - component: {fileID: 4592549358322498289}
-  - component: {fileID: 1869465913888933147}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.063"
   m_TagString: WallParticle
@@ -6559,22 +6150,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1869465913888933147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3967450593772754393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &3995791092731973325
 GameObject:
   m_ObjectHideFlags: 0
@@ -6591,7 +6166,6 @@ GameObject:
   - component: {fileID: 1539850425326085872}
   - component: {fileID: 3413407009514863204}
   - component: {fileID: 4729554196257656164}
-  - component: {fileID: 4911378734128642885}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.045"
   m_TagString: WallParticle
@@ -6822,22 +6396,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4911378734128642885
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3995791092731973325}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &4207092363587235408
 GameObject:
   m_ObjectHideFlags: 0
@@ -6854,7 +6412,6 @@ GameObject:
   - component: {fileID: 6519221228856173103}
   - component: {fileID: 4184547420054316622}
   - component: {fileID: 3405682465905297886}
-  - component: {fileID: 2302869811289453063}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.023"
   m_TagString: WallParticle
@@ -7085,22 +6642,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2302869811289453063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4207092363587235408}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &4337555810431668870
 GameObject:
   m_ObjectHideFlags: 0
@@ -7117,7 +6658,6 @@ GameObject:
   - component: {fileID: 5718701414355195684}
   - component: {fileID: 7134260629812013322}
   - component: {fileID: 2336065239755791669}
-  - component: {fileID: 5058987312349596863}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.017"
   m_TagString: WallParticle
@@ -7348,22 +6888,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &5058987312349596863
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4337555810431668870}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &4537240058223973624
 GameObject:
   m_ObjectHideFlags: 0
@@ -7380,7 +6904,6 @@ GameObject:
   - component: {fileID: 2012955296266422015}
   - component: {fileID: 7794754366384277192}
   - component: {fileID: 6863223660172524970}
-  - component: {fileID: 355239610354470151}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.064"
   m_TagString: WallParticle
@@ -7611,22 +7134,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &355239610354470151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4537240058223973624}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &4661108217603292816
 GameObject:
   m_ObjectHideFlags: 0
@@ -7643,7 +7150,6 @@ GameObject:
   - component: {fileID: 672839144982036783}
   - component: {fileID: 5331941552184307816}
   - component: {fileID: 4765314428222700926}
-  - component: {fileID: 3728811849615173384}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.043"
   m_TagString: WallParticle
@@ -7874,22 +7380,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &3728811849615173384
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4661108217603292816}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &4815769858567545222
 GameObject:
   m_ObjectHideFlags: 0
@@ -7906,7 +7396,6 @@ GameObject:
   - component: {fileID: 3521955505673561402}
   - component: {fileID: 5729081212243923033}
   - component: {fileID: 1538933062187204506}
-  - component: {fileID: 346436370288892520}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.038"
   m_TagString: WallParticle
@@ -8137,22 +7626,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &346436370288892520
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4815769858567545222}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &4898097962242293535
 GameObject:
   m_ObjectHideFlags: 0
@@ -8169,7 +7642,6 @@ GameObject:
   - component: {fileID: 9088128633363489185}
   - component: {fileID: 2065363389103440362}
   - component: {fileID: 1777520052827484488}
-  - component: {fileID: 5988057143706180273}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.056"
   m_TagString: WallParticle
@@ -8400,22 +7872,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &5988057143706180273
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4898097962242293535}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &4959650127401581938
 GameObject:
   m_ObjectHideFlags: 0
@@ -8432,7 +7888,6 @@ GameObject:
   - component: {fileID: 6439660383287322384}
   - component: {fileID: 1400506683364345097}
   - component: {fileID: 6265722872661246244}
-  - component: {fileID: 5151601277261415602}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.067"
   m_TagString: WallParticle
@@ -8663,22 +8118,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &5151601277261415602
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4959650127401581938}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &5115183857506885864
 GameObject:
   m_ObjectHideFlags: 0
@@ -8804,76 +8243,10 @@ MonoBehaviour:
   ObservedComponentsFoldoutOpen: 1
   Group: 0
   prefixField: -1
-  Synchronization: 1
+  Synchronization: 0
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents:
-  - {fileID: 1711408407907945382}
-  - {fileID: 8511705432040311958}
-  - {fileID: 4861439997355137880}
-  - {fileID: 2313144418210298430}
-  - {fileID: 4069899410189095935}
-  - {fileID: 2888582918749145642}
-  - {fileID: 6460552649441834438}
-  - {fileID: 2326862246132592219}
-  - {fileID: 7836612699263237025}
-  - {fileID: 2359587428961575161}
-  - {fileID: 3635173843736196549}
-  - {fileID: 271407829178662866}
-  - {fileID: 2917194660702137345}
-  - {fileID: 2407389930575422771}
-  - {fileID: 8712339484669376673}
-  - {fileID: 1549081406690491317}
-  - {fileID: 5058987312349596863}
-  - {fileID: 4996019496957253903}
-  - {fileID: 4673428714202684855}
-  - {fileID: 8644664590792110901}
-  - {fileID: 4799646298834533856}
-  - {fileID: 2802934763102740387}
-  - {fileID: 2302869811289453063}
-  - {fileID: 9197095789134943668}
-  - {fileID: 6962523841864236117}
-  - {fileID: 7270610679314698361}
-  - {fileID: 2802116819325136187}
-  - {fileID: 8402368879696807432}
-  - {fileID: 4903917537976919755}
-  - {fileID: 7491155830023103545}
-  - {fileID: 2890209907308341039}
-  - {fileID: 5450622655394372428}
-  - {fileID: 7177093366358781927}
-  - {fileID: 7091165925137807084}
-  - {fileID: 2979893003957434813}
-  - {fileID: 346436370288892520}
-  - {fileID: 7519077893596998950}
-  - {fileID: 6105602865251155600}
-  - {fileID: 2563254504987420013}
-  - {fileID: 3579850512533112264}
-  - {fileID: 3728811849615173384}
-  - {fileID: 4756371844664896627}
-  - {fileID: 4911378734128642885}
-  - {fileID: 3981996713796390470}
-  - {fileID: 7455002996725157122}
-  - {fileID: 829578429561489255}
-  - {fileID: 8899927167550572661}
-  - {fileID: 8478281339936996312}
-  - {fileID: 1769606716850234474}
-  - {fileID: 6099316525647829991}
-  - {fileID: 7833639794699941803}
-  - {fileID: 8082874694603946484}
-  - {fileID: 7988474627178981446}
-  - {fileID: 5988057143706180273}
-  - {fileID: 654736943604835828}
-  - {fileID: 2139719950678033312}
-  - {fileID: 7163810150090847612}
-  - {fileID: 5862865099726388022}
-  - {fileID: 7484076336696304916}
-  - {fileID: 1869465913888933147}
-  - {fileID: 355239610354470151}
-  - {fileID: 3845087926548730229}
-  - {fileID: 3173534378777916295}
-  - {fileID: 5151601277261415602}
-  - {fileID: 4768120674643068852}
-  - {fileID: 347724189378867570}
+  ObservedComponents: []
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -8893,7 +8266,6 @@ GameObject:
   - component: {fileID: 74358586412542625}
   - component: {fileID: 5772994453390750607}
   - component: {fileID: 118380904260699770}
-  - component: {fileID: 4996019496957253903}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.018"
   m_TagString: WallParticle
@@ -9124,22 +8496,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4996019496957253903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5196573769370552693}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &5479221650641141649
 GameObject:
   m_ObjectHideFlags: 0
@@ -9156,7 +8512,6 @@ GameObject:
   - component: {fileID: 1938483205807035290}
   - component: {fileID: 3989112237964991045}
   - component: {fileID: 4699807783859551807}
-  - component: {fileID: 5862865099726388022}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.061"
   m_TagString: WallParticle
@@ -9387,22 +8742,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &5862865099726388022
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5479221650641141649}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &5524671530082468664
 GameObject:
   m_ObjectHideFlags: 0
@@ -9419,7 +8758,6 @@ GameObject:
   - component: {fileID: 1794702897936591576}
   - component: {fileID: 2877931396705338273}
   - component: {fileID: 4600042927315638736}
-  - component: {fileID: 8644664590792110901}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.020"
   m_TagString: WallParticle
@@ -9650,22 +8988,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &8644664590792110901
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5524671530082468664}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &5658817996760105547
 GameObject:
   m_ObjectHideFlags: 0
@@ -9682,7 +9004,6 @@ GameObject:
   - component: {fileID: 2391220988395496103}
   - component: {fileID: 624614040564206735}
   - component: {fileID: 6137004025141022124}
-  - component: {fileID: 4673428714202684855}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.019"
   m_TagString: WallParticle
@@ -9913,22 +9234,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4673428714202684855
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5658817996760105547}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &5682467985761749131
 GameObject:
   m_ObjectHideFlags: 0
@@ -9945,7 +9250,6 @@ GameObject:
   - component: {fileID: 5798364453277206705}
   - component: {fileID: 2108530808210345123}
   - component: {fileID: 691303896797665846}
-  - component: {fileID: 2802116819325136187}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.027"
   m_TagString: WallParticle
@@ -10176,22 +9480,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2802116819325136187
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5682467985761749131}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &5862488453210876294
 GameObject:
   m_ObjectHideFlags: 0
@@ -10208,7 +9496,6 @@ GameObject:
   - component: {fileID: 4103354094153590366}
   - component: {fileID: 3221843551575907442}
   - component: {fileID: 9179797836774322278}
-  - component: {fileID: 2407389930575422771}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.014"
   m_TagString: WallParticle
@@ -10439,22 +9726,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2407389930575422771
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5862488453210876294}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &5974230198438403792
 GameObject:
   m_ObjectHideFlags: 0
@@ -10471,7 +9742,6 @@ GameObject:
   - component: {fileID: 8666995641082035099}
   - component: {fileID: 730788141979953238}
   - component: {fileID: 4782410989954243396}
-  - component: {fileID: 7491155830023103545}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.031"
   m_TagString: WallParticle
@@ -10702,22 +9972,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &7491155830023103545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5974230198438403792}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &6160735084992831518
 GameObject:
   m_ObjectHideFlags: 0
@@ -10734,7 +9988,6 @@ GameObject:
   - component: {fileID: 4986979950718968900}
   - component: {fileID: 6892336242022960615}
   - component: {fileID: 2047471101074932125}
-  - component: {fileID: 6962523841864236117}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.025"
   m_TagString: WallParticle
@@ -10965,22 +10218,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &6962523841864236117
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6160735084992831518}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &6254683247913977922
 GameObject:
   m_ObjectHideFlags: 0
@@ -10997,7 +10234,6 @@ GameObject:
   - component: {fileID: 2146239456947319195}
   - component: {fileID: 1662818600489636716}
   - component: {fileID: 8422541097763650747}
-  - component: {fileID: 2139719950678033312}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.059"
   m_TagString: WallParticle
@@ -11228,22 +10464,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2139719950678033312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6254683247913977922}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &6386532042276250298
 GameObject:
   m_ObjectHideFlags: 0
@@ -11260,7 +10480,6 @@ GameObject:
   - component: {fileID: 1225396953137110225}
   - component: {fileID: 4327082877578487804}
   - component: {fileID: 2713693000472800481}
-  - component: {fileID: 5450622655394372428}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.033"
   m_TagString: WallParticle
@@ -11491,22 +10710,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &5450622655394372428
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6386532042276250298}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &6432121232466247153
 GameObject:
   m_ObjectHideFlags: 0
@@ -11523,7 +10726,6 @@ GameObject:
   - component: {fileID: 8377963631654582103}
   - component: {fileID: 1718104712665485526}
   - component: {fileID: 7758811792361190891}
-  - component: {fileID: 2979893003957434813}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.037"
   m_TagString: WallParticle
@@ -11754,22 +10956,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2979893003957434813
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6432121232466247153}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &6440267370577391917
 GameObject:
   m_ObjectHideFlags: 0
@@ -11786,7 +10972,6 @@ GameObject:
   - component: {fileID: 5573333862918586771}
   - component: {fileID: 6530622561947705453}
   - component: {fileID: 6418785953374220128}
-  - component: {fileID: 7988474627178981446}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.055"
   m_TagString: WallParticle
@@ -12017,22 +11202,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &7988474627178981446
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6440267370577391917}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &6542356182258241243
 GameObject:
   m_ObjectHideFlags: 0
@@ -12049,7 +11218,6 @@ GameObject:
   - component: {fileID: 4460113898184353008}
   - component: {fileID: 8953904607864268651}
   - component: {fileID: 5506618609860333197}
-  - component: {fileID: 4756371844664896627}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.044"
   m_TagString: WallParticle
@@ -12280,22 +11448,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4756371844664896627
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6542356182258241243}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &6866978505052470879
 GameObject:
   m_ObjectHideFlags: 0
@@ -12312,7 +11464,6 @@ GameObject:
   - component: {fileID: 2900292825085335141}
   - component: {fileID: 371611816577692891}
   - component: {fileID: 2409687589281098818}
-  - component: {fileID: 7270610679314698361}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.026"
   m_TagString: WallParticle
@@ -12543,22 +11694,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &7270610679314698361
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6866978505052470879}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &7230013765263504477
 GameObject:
   m_ObjectHideFlags: 0
@@ -12575,7 +11710,6 @@ GameObject:
   - component: {fileID: 6921736369141957477}
   - component: {fileID: 6768813256252921808}
   - component: {fileID: 1217935158378344545}
-  - component: {fileID: 271407829178662866}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.012"
   m_TagString: WallParticle
@@ -12806,22 +11940,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &271407829178662866
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7230013765263504477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &7237792333288336611
 GameObject:
   m_ObjectHideFlags: 0
@@ -12838,7 +11956,6 @@ GameObject:
   - component: {fileID: 2926421221801143164}
   - component: {fileID: 4505763877245039488}
   - component: {fileID: 3441315975827669727}
-  - component: {fileID: 8511705432040311958}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.001"
   m_TagString: WallParticle
@@ -13069,22 +12186,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &8511705432040311958
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7237792333288336611}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &7358768152101000477
 GameObject:
   m_ObjectHideFlags: 0
@@ -13101,7 +12202,6 @@ GameObject:
   - component: {fileID: 5493054830598773631}
   - component: {fileID: 4102965872763451067}
   - component: {fileID: 6514497762969796485}
-  - component: {fileID: 1769606716850234474}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.051"
   m_TagString: WallParticle
@@ -13332,22 +12432,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1769606716850234474
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7358768152101000477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &7446994119071570313
 GameObject:
   m_ObjectHideFlags: 0
@@ -13364,7 +12448,6 @@ GameObject:
   - component: {fileID: 9174251386110675039}
   - component: {fileID: 7489440174006346144}
   - component: {fileID: 9007141653361730490}
-  - component: {fileID: 7484076336696304916}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.062"
   m_TagString: WallParticle
@@ -13595,22 +12678,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &7484076336696304916
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7446994119071570313}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &7689289207291496774
 GameObject:
   m_ObjectHideFlags: 0
@@ -13627,7 +12694,6 @@ GameObject:
   - component: {fileID: 2357886727436692689}
   - component: {fileID: 6998125317776247466}
   - component: {fileID: 4410077227134239170}
-  - component: {fileID: 8082874694603946484}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.054"
   m_TagString: WallParticle
@@ -13858,22 +12924,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &8082874694603946484
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7689289207291496774}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &7718125765851050575
 GameObject:
   m_ObjectHideFlags: 0
@@ -13890,7 +12940,6 @@ GameObject:
   - component: {fileID: 3305774122835005860}
   - component: {fileID: 5509390538926484242}
   - component: {fileID: 165542467421546116}
-  - component: {fileID: 1711408407907945382}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell"
   m_TagString: WallParticle
@@ -14121,22 +13170,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1711408407907945382
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7718125765851050575}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &7734055290999444023
 GameObject:
   m_ObjectHideFlags: 0
@@ -14153,7 +13186,6 @@ GameObject:
   - component: {fileID: 5264526307398340445}
   - component: {fileID: 8854510652749708752}
   - component: {fileID: 2537525248714214279}
-  - component: {fileID: 4069899410189095935}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.004"
   m_TagString: WallParticle
@@ -14384,22 +13416,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4069899410189095935
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7734055290999444023}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &7968500010577078979
 GameObject:
   m_ObjectHideFlags: 0
@@ -14416,7 +13432,6 @@ GameObject:
   - component: {fileID: 2233756548939426360}
   - component: {fileID: 1814818301656902450}
   - component: {fileID: 6952351764104867298}
-  - component: {fileID: 7519077893596998950}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.039"
   m_TagString: WallParticle
@@ -14647,22 +13662,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &7519077893596998950
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7968500010577078979}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &8053471610536896472
 GameObject:
   m_ObjectHideFlags: 0
@@ -14679,7 +13678,6 @@ GameObject:
   - component: {fileID: 6217268175829546127}
   - component: {fileID: 1627695540690274141}
   - component: {fileID: 3980075381271165275}
-  - component: {fileID: 4903917537976919755}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.030"
   m_TagString: WallParticle
@@ -14910,22 +13908,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4903917537976919755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8053471610536896472}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &8126737875566098276
 GameObject:
   m_ObjectHideFlags: 0
@@ -14942,7 +13924,6 @@ GameObject:
   - component: {fileID: 4644726476415018587}
   - component: {fileID: 4273220035645547041}
   - component: {fileID: 7686630679710913687}
-  - component: {fileID: 8478281339936996312}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.050"
   m_TagString: WallParticle
@@ -15173,22 +14154,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &8478281339936996312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8126737875566098276}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &8147616994813763793
 GameObject:
   m_ObjectHideFlags: 0
@@ -15205,7 +14170,6 @@ GameObject:
   - component: {fileID: 6579198542452868876}
   - component: {fileID: 3418204272615061010}
   - component: {fileID: 2482762643190933121}
-  - component: {fileID: 3635173843736196549}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.011"
   m_TagString: WallParticle
@@ -15436,22 +14400,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &3635173843736196549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8147616994813763793}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &8177210137330063367
 GameObject:
   m_ObjectHideFlags: 0
@@ -15468,7 +14416,6 @@ GameObject:
   - component: {fileID: 3756384231311340632}
   - component: {fileID: 3054134285996001838}
   - component: {fileID: 6119516946747730118}
-  - component: {fileID: 8712339484669376673}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.015"
   m_TagString: WallParticle
@@ -15699,22 +14646,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &8712339484669376673
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8177210137330063367}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &8237666654944831093
 GameObject:
   m_ObjectHideFlags: 0
@@ -15731,7 +14662,6 @@ GameObject:
   - component: {fileID: 3883558271718441384}
   - component: {fileID: 4665462940470506430}
   - component: {fileID: 3510135112961256125}
-  - component: {fileID: 2326862246132592219}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.007"
   m_TagString: WallParticle
@@ -15962,22 +14892,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2326862246132592219
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8237666654944831093}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &8337500791398425436
 GameObject:
   m_ObjectHideFlags: 0
@@ -15994,7 +14908,6 @@ GameObject:
   - component: {fileID: 4589468641490126684}
   - component: {fileID: 6601835374660494410}
   - component: {fileID: 3250141444610687792}
-  - component: {fileID: 2890209907308341039}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.032"
   m_TagString: WallParticle
@@ -16225,22 +15138,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2890209907308341039
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8337500791398425436}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &8446245846374986742
 GameObject:
   m_ObjectHideFlags: 0
@@ -16257,7 +15154,6 @@ GameObject:
   - component: {fileID: 5470747139973891977}
   - component: {fileID: 5537844091740641819}
   - component: {fileID: 3576504536637040220}
-  - component: {fileID: 4768120674643068852}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.068"
   m_TagString: WallParticle
@@ -16488,22 +15384,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4768120674643068852
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8446245846374986742}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &8613291419837202660
 GameObject:
   m_ObjectHideFlags: 0
@@ -16520,7 +15400,6 @@ GameObject:
   - component: {fileID: 4120917033788009415}
   - component: {fileID: 8834932272803499216}
   - component: {fileID: 4058185077467674064}
-  - component: {fileID: 3981996713796390470}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.046"
   m_TagString: WallParticle
@@ -16751,22 +15630,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &3981996713796390470
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8613291419837202660}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &8642635215745353147
 GameObject:
   m_ObjectHideFlags: 0
@@ -16783,7 +15646,6 @@ GameObject:
   - component: {fileID: 1310142008160693888}
   - component: {fileID: 8720327314525887031}
   - component: {fileID: 8127524353511748421}
-  - component: {fileID: 2802934763102740387}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.022"
   m_TagString: WallParticle
@@ -17014,22 +15876,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2802934763102740387
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8642635215745353147}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &8880280925304873352
 GameObject:
   m_ObjectHideFlags: 0
@@ -17046,7 +15892,6 @@ GameObject:
   - component: {fileID: 4627261282473431776}
   - component: {fileID: 7277627865663877476}
   - component: {fileID: 744049533603389838}
-  - component: {fileID: 7163810150090847612}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.060"
   m_TagString: WallParticle
@@ -17277,22 +16122,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &7163810150090847612
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8880280925304873352}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1 &9035235224827343827
 GameObject:
   m_ObjectHideFlags: 0
@@ -17309,7 +16138,6 @@ GameObject:
   - component: {fileID: 148907941461211244}
   - component: {fileID: 6243499122713917538}
   - component: {fileID: 5654545731755625288}
-  - component: {fileID: 4861439997355137880}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.002"
   m_TagString: WallParticle
@@ -17540,19 +16368,3 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4861439997355137880
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9035235224827343827}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
