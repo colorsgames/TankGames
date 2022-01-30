@@ -11,10 +11,7 @@ namespace Com.COLORSGAMES.TANKGAMES
         {
             if (transform.childCount == 0)
             {
-                if (PhotonNetwork.IsMasterClient)
-                {
-                    PhotonNetwork.Destroy(this.gameObject);
-                }
+                 Destroy(this.gameObject);
             }
         }
     }

@@ -11,7 +11,7 @@ namespace Com.COLORSGAMES.TANKGAMES {
 
         public void Spawn()
         {
-            GameObject chips = PhotonNetwork.Instantiate(destroyWall.name, transform.position, transform.rotation) as GameObject;
+            Instantiate(destroyWall, transform.position, transform.rotation);
             if (PhotonNetwork.IsMasterClient)
             {
                 PhotonNetwork.Destroy(this.gameObject);
