@@ -16,8 +16,6 @@ namespace Com.COLORSGAMES.TANKGAMES
         protected override void Start()
         {
             base.Start();
-            PhotonNetwork.SendRate = 60;
-            PhotonNetwork.SerializationRate = 60;
             camController = Camera.main.GetComponent<CamController>();
             if (camController != null)
             {
