@@ -245,7 +245,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &8427268472326734941
 Rigidbody:
@@ -508,7 +508,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &908709478296784662
 Rigidbody:
@@ -771,7 +771,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &3571806578382778328
 Rigidbody:
@@ -1034,7 +1034,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &175281204153748423
 Rigidbody:
@@ -1297,7 +1297,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &7593371178318889060
 Rigidbody:
@@ -1560,7 +1560,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &2065839567881780366
 Rigidbody:
@@ -1823,7 +1823,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &2531006463930700184
 Rigidbody:
@@ -2086,7 +2086,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &8031574745578021663
 Rigidbody:
@@ -2349,7 +2349,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &5412778571757027602
 Rigidbody:
@@ -2612,7 +2612,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &8330070893451803367
 Rigidbody:
@@ -2875,7 +2875,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &2511024058165173390
 Rigidbody:
@@ -3138,7 +3138,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &7480088508502298003
 Rigidbody:
@@ -3401,7 +3401,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &2200348652210386661
 Rigidbody:
@@ -3664,7 +3664,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &1127574663504849407
 Rigidbody:
@@ -3927,7 +3927,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &5887578828077877425
 Rigidbody:
@@ -4190,7 +4190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &2197417949723883370
 Rigidbody:
@@ -4453,7 +4453,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &664393747438118601
 Rigidbody:
@@ -4716,7 +4716,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &8581410518227877038
 Rigidbody:
@@ -4979,7 +4979,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &8418623499142221540
 Rigidbody:
@@ -5242,7 +5242,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &5863409033179765393
 Rigidbody:
@@ -5505,7 +5505,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &6778887708848660460
 Rigidbody:
@@ -5768,7 +5768,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &363990589847996108
 Rigidbody:
@@ -6031,7 +6031,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &8200500762777370038
 Rigidbody:
@@ -6294,7 +6294,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &3346541722687512798
 Rigidbody:
@@ -6557,7 +6557,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &4592549358322498289
 Rigidbody:
@@ -6820,7 +6820,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &4729554196257656164
 Rigidbody:
@@ -7083,7 +7083,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &3405682465905297886
 Rigidbody:
@@ -7346,7 +7346,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &2336065239755791669
 Rigidbody:
@@ -7609,7 +7609,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &6863223660172524970
 Rigidbody:
@@ -7872,7 +7872,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &4765314428222700926
 Rigidbody:
@@ -8135,7 +8135,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &1538933062187204506
 Rigidbody:
@@ -8398,7 +8398,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &1777520052827484488
 Rigidbody:
@@ -8661,7 +8661,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &6265722872661246244
 Rigidbody:
@@ -8808,137 +8808,71 @@ MonoBehaviour:
   OwnershipTransfer: 0
   observableSearch: 2
   ObservedComponents:
-  - {fileID: 0}
   - {fileID: 4937021021760918722}
-  - {fileID: 0}
   - {fileID: 7470718808761782047}
-  - {fileID: 0}
   - {fileID: 2750802870664173775}
-  - {fileID: 0}
   - {fileID: 799295775928487048}
-  - {fileID: 0}
   - {fileID: 8680738728342628906}
-  - {fileID: 0}
   - {fileID: 5412243758859961270}
-  - {fileID: 0}
   - {fileID: 3444380847424381341}
-  - {fileID: 0}
   - {fileID: 8777543631122964611}
-  - {fileID: 0}
   - {fileID: 5822052144094847158}
-  - {fileID: 0}
   - {fileID: 8528376777663183251}
-  - {fileID: 0}
   - {fileID: 547463790078266219}
-  - {fileID: 0}
   - {fileID: 72768293396516728}
-  - {fileID: 0}
   - {fileID: 5745780397088964116}
-  - {fileID: 0}
   - {fileID: 3611884717298066698}
-  - {fileID: 0}
   - {fileID: 4573167761766013896}
-  - {fileID: 0}
   - {fileID: 697529131591540586}
-  - {fileID: 0}
   - {fileID: 7346722922463130889}
-  - {fileID: 0}
   - {fileID: 2347453491963951013}
-  - {fileID: 0}
   - {fileID: 2067144950876527246}
-  - {fileID: 0}
   - {fileID: 2642435171090273912}
-  - {fileID: 0}
   - {fileID: 6946239234715800549}
-  - {fileID: 0}
   - {fileID: 3707743837291475472}
-  - {fileID: 0}
   - {fileID: 2157207608737265467}
-  - {fileID: 0}
   - {fileID: 8936656974999152319}
-  - {fileID: 0}
   - {fileID: 1806795665373718550}
-  - {fileID: 0}
   - {fileID: 5933931529569226060}
-  - {fileID: 0}
   - {fileID: 8392886252084275962}
-  - {fileID: 0}
   - {fileID: 8654408346028064394}
-  - {fileID: 0}
   - {fileID: 4363659671351649708}
-  - {fileID: 0}
   - {fileID: 405282054381436283}
-  - {fileID: 0}
   - {fileID: 8722938322189149519}
-  - {fileID: 0}
   - {fileID: 728974986732816754}
-  - {fileID: 0}
   - {fileID: 2191941954377485438}
-  - {fileID: 0}
   - {fileID: 7201555622509572434}
-  - {fileID: 0}
   - {fileID: 5941950938276989720}
-  - {fileID: 0}
   - {fileID: 8664876701513876263}
-  - {fileID: 0}
   - {fileID: 7991459118016964986}
-  - {fileID: 0}
   - {fileID: 8203709647008348109}
-  - {fileID: 0}
   - {fileID: 7781366439412362209}
-  - {fileID: 0}
   - {fileID: 1910164345524562440}
-  - {fileID: 0}
   - {fileID: 4311959358810099368}
-  - {fileID: 0}
   - {fileID: 816790691796952130}
-  - {fileID: 0}
   - {fileID: 8007864858678512187}
-  - {fileID: 0}
   - {fileID: 6274536414141429076}
-  - {fileID: 0}
   - {fileID: 7896261496690061965}
-  - {fileID: 0}
   - {fileID: 8034845784414456972}
-  - {fileID: 0}
   - {fileID: 3645340165662721699}
-  - {fileID: 0}
   - {fileID: 7934210281191589384}
-  - {fileID: 0}
   - {fileID: 2175873116937570778}
-  - {fileID: 0}
   - {fileID: 4022509665181753347}
-  - {fileID: 0}
   - {fileID: 5947379555661455259}
-  - {fileID: 0}
   - {fileID: 7864004764068362066}
-  - {fileID: 0}
   - {fileID: 2508157385607580790}
-  - {fileID: 0}
   - {fileID: 6064075654836011107}
-  - {fileID: 0}
   - {fileID: 7657165400613546287}
-  - {fileID: 0}
   - {fileID: 3171822366915573021}
-  - {fileID: 0}
   - {fileID: 8558441666620849729}
-  - {fileID: 0}
   - {fileID: 733398003948445419}
-  - {fileID: 0}
   - {fileID: 4303032565807010890}
-  - {fileID: 0}
   - {fileID: 2521438935303687243}
-  - {fileID: 0}
   - {fileID: 5902245488123890850}
-  - {fileID: 0}
   - {fileID: 4626686122831916539}
-  - {fileID: 0}
   - {fileID: 8122937053513141295}
-  - {fileID: 0}
   - {fileID: 4788050423024209192}
-  - {fileID: 0}
   - {fileID: 3473426377991807168}
-  - {fileID: 0}
   - {fileID: 6575645557066146563}
   sceneViewId: 0
   InstantiationId: 0
@@ -9188,7 +9122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &118380904260699770
 Rigidbody:
@@ -9451,7 +9385,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &4699807783859551807
 Rigidbody:
@@ -9714,7 +9648,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &4600042927315638736
 Rigidbody:
@@ -9977,7 +9911,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &6137004025141022124
 Rigidbody:
@@ -10240,7 +10174,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &691303896797665846
 Rigidbody:
@@ -10503,7 +10437,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &9179797836774322278
 Rigidbody:
@@ -10766,7 +10700,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &4782410989954243396
 Rigidbody:
@@ -11029,7 +10963,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &2047471101074932125
 Rigidbody:
@@ -11292,7 +11226,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &8422541097763650747
 Rigidbody:
@@ -11555,7 +11489,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &2713693000472800481
 Rigidbody:
@@ -11818,7 +11752,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &7758811792361190891
 Rigidbody:
@@ -12081,7 +12015,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &6418785953374220128
 Rigidbody:
@@ -12344,7 +12278,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &5506618609860333197
 Rigidbody:
@@ -12607,7 +12541,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &2409687589281098818
 Rigidbody:
@@ -12870,7 +12804,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &1217935158378344545
 Rigidbody:
@@ -13133,7 +13067,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &3441315975827669727
 Rigidbody:
@@ -13396,7 +13330,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &6514497762969796485
 Rigidbody:
@@ -13659,7 +13593,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &9007141653361730490
 Rigidbody:
@@ -13922,7 +13856,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &4410077227134239170
 Rigidbody:
@@ -14185,7 +14119,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &165542467421546116
 Rigidbody:
@@ -14448,7 +14382,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &2537525248714214279
 Rigidbody:
@@ -14711,7 +14645,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &6952351764104867298
 Rigidbody:
@@ -14974,7 +14908,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &3980075381271165275
 Rigidbody:
@@ -15237,7 +15171,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &7686630679710913687
 Rigidbody:
@@ -15500,7 +15434,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &2482762643190933121
 Rigidbody:
@@ -15763,7 +15697,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &6119516946747730118
 Rigidbody:
@@ -16026,7 +15960,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &3510135112961256125
 Rigidbody:
@@ -16289,7 +16223,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &3250141444610687792
 Rigidbody:
@@ -16552,7 +16486,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &3576504536637040220
 Rigidbody:
@@ -16815,7 +16749,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &4058185077467674064
 Rigidbody:
@@ -17078,7 +17012,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &8127524353511748421
 Rigidbody:
@@ -17341,7 +17275,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &744049533603389838
 Rigidbody:
@@ -17604,7 +17538,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &5654545731755625288
 Rigidbody:
