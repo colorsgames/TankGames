@@ -1697,7 +1697,6 @@ GameObject:
   - component: {fileID: 5735167589128594599}
   - component: {fileID: 5792471421349592784}
   - component: {fileID: 8279445454597657163}
-  - component: {fileID: 3029223848458049378}
   m_Layer: 0
   m_Name: Tank
   m_TagString: Untagged
@@ -1833,13 +1832,13 @@ MonoBehaviour:
   ObservedComponentsFoldoutOpen: 1
   Group: 0
   prefixField: -1
-  Synchronization: 3
+  Synchronization: 1
   OwnershipTransfer: 0
   observableSearch: 2
   ObservedComponents:
   - {fileID: 5735167589128594597}
   - {fileID: 8279445454597657163}
-  - {fileID: 3029223848458049378}
+  - {fileID: 0}
   - {fileID: 5697391832476622524}
   - {fileID: 1769626064426396248}
   sceneViewId: 0
@@ -1861,22 +1860,6 @@ MonoBehaviour:
   m_SynchronizeAngularVelocity: 1
   m_TeleportEnabled: 0
   m_TeleportIfDistanceGreaterThan: 3
---- !u!114 &3029223848458049378
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5735167589128594594}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizePosition: 1
-  m_SynchronizeRotation: 1
-  m_SynchronizeScale: 0
-  m_UseLocal: 1
 --- !u!1 &5735167589141780780
 GameObject:
   m_ObjectHideFlags: 0
