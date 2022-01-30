@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: 5077600501065270208}
   - component: {fileID: 7176544775093581051}
   - component: {fileID: 3456914543673409975}
-  - component: {fileID: 2191941954377485438}
   - component: {fileID: 8427268472326734941}
+  - component: {fileID: 1036105121109417872}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.034"
   m_TagString: WallParticle
@@ -231,22 +231,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.010290397, y: 0.0021349043, z: 0.008621564}
   m_Center: {x: -0.0012180526, y: 0.00022034197, z: -0.0006193315}
---- !u!114 &2191941954377485438
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 328083710357729973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &8427268472326734941
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -263,6 +247,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1036105121109417872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328083710357729973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &530245333231857444
 GameObject:
   m_ObjectHideFlags: 0
@@ -278,8 +278,8 @@ GameObject:
   - component: {fileID: 6542796055681390693}
   - component: {fileID: 2907257737712047500}
   - component: {fileID: 1822102354286198525}
-  - component: {fileID: 7201555622509572434}
   - component: {fileID: 908709478296784662}
+  - component: {fileID: 6039784918497116347}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.036"
   m_TagString: WallParticle
@@ -494,22 +494,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.005999786, y: 0.0022984124, z: 0.005946247}
   m_Center: {x: 0.00006826932, y: 0.00015080851, z: -0.00001797976}
---- !u!114 &7201555622509572434
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 530245333231857444}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &908709478296784662
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -526,6 +510,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6039784918497116347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 530245333231857444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &554559603794796998
 GameObject:
   m_ObjectHideFlags: 0
@@ -541,8 +541,8 @@ GameObject:
   - component: {fileID: 2929206080407603067}
   - component: {fileID: 6695777947251107621}
   - component: {fileID: 82843142443311487}
-  - component: {fileID: 8528376777663183251}
   - component: {fileID: 3571806578382778328}
+  - component: {fileID: 596319968793540650}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.010"
   m_TagString: WallParticle
@@ -757,22 +757,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0053300667, y: 0.0021349043, z: 0.006648276}
   m_Center: {x: 0.000060583698, y: 0.00031296758, z: 0.0008036244}
---- !u!114 &8528376777663183251
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 554559603794796998}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &3571806578382778328
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -789,6 +773,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &596319968793540650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554559603794796998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &644472319211587322
 GameObject:
   m_ObjectHideFlags: 0
@@ -804,8 +804,8 @@ GameObject:
   - component: {fileID: 4878041252636908411}
   - component: {fileID: 3237848555305506605}
   - component: {fileID: 7594138554100839967}
-  - component: {fileID: 5745780397088964116}
   - component: {fileID: 175281204153748423}
+  - component: {fileID: 3217000595078901761}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.013"
   m_TagString: WallParticle
@@ -1020,22 +1020,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.005740152, y: 0.0022984124, z: 0.005940107}
   m_Center: {x: -0.0002372847, y: 0.0003392649, z: -0.000034498742}
---- !u!114 &5745780397088964116
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 644472319211587322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &175281204153748423
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1052,6 +1036,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3217000595078901761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 644472319211587322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &997050754765336054
 GameObject:
   m_ObjectHideFlags: 0
@@ -1067,8 +1067,8 @@ GameObject:
   - component: {fileID: 3976641994598684316}
   - component: {fileID: 4475379874024678574}
   - component: {fileID: 6679000347553505264}
-  - component: {fileID: 4022509665181753347}
   - component: {fileID: 7593371178318889060}
+  - component: {fileID: 6733108454947993190}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.052"
   m_TagString: WallParticle
@@ -1283,22 +1283,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0051811826, y: 0.0022984126, z: 0.008077199}
   m_Center: {x: 0.00079250644, y: 0.000019105963, z: -0.0017084432}
---- !u!114 &4022509665181753347
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 997050754765336054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &7593371178318889060
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1315,6 +1299,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6733108454947993190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997050754765336054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &1245655083077321952
 GameObject:
   m_ObjectHideFlags: 0
@@ -1330,8 +1330,8 @@ GameObject:
   - component: {fileID: 4763052442791891028}
   - component: {fileID: 5766432777839367551}
   - component: {fileID: 3365743872567087625}
-  - component: {fileID: 5822052144094847158}
   - component: {fileID: 2065839567881780366}
+  - component: {fileID: 6068178126523358598}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.009"
   m_TagString: WallParticle
@@ -1546,22 +1546,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.006070965, y: 0.0012984318, z: 0.0049485704}
   m_Center: {x: 0.00012262154, y: -0.00035890838, z: 0.00058738445}
---- !u!114 &5822052144094847158
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1245655083077321952}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &2065839567881780366
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1578,6 +1562,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6068178126523358598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245655083077321952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &1358563766901370066
 GameObject:
   m_ObjectHideFlags: 0
@@ -1593,8 +1593,8 @@ GameObject:
   - component: {fileID: 4616032725574194026}
   - component: {fileID: 2961407220457085532}
   - component: {fileID: 1227252030807068816}
-  - component: {fileID: 7781366439412362209}
   - component: {fileID: 2531006463930700184}
+  - component: {fileID: 1045836451155645729}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.041"
   m_TagString: WallParticle
@@ -1809,22 +1809,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0015223165, y: 0.0022984126, z: 0.004248037}
   m_Center: {x: 0.000011690659, y: 0.000017923998, z: -0.0001159203}
---- !u!114 &7781366439412362209
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1358563766901370066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &2531006463930700184
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1841,6 +1825,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1045836451155645729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358563766901370066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &1604517530830345032
 GameObject:
   m_ObjectHideFlags: 0
@@ -1856,8 +1856,8 @@ GameObject:
   - component: {fileID: 8123734659469275119}
   - component: {fileID: 2087464049389151482}
   - component: {fileID: 8782967157955504211}
-  - component: {fileID: 8654408346028064394}
   - component: {fileID: 8031574745578021663}
+  - component: {fileID: 3067509533215925469}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.028"
   m_TagString: WallParticle
@@ -2072,22 +2072,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0022473326, y: 0.00094308663, z: 0.0035445557}
   m_Center: {x: -0.00025338712, y: 0.00025861466, z: -0.0005643302}
---- !u!114 &8654408346028064394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1604517530830345032}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &8031574745578021663
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2104,6 +2088,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3067509533215925469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604517530830345032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &1633649344297824273
 GameObject:
   m_ObjectHideFlags: 0
@@ -2119,8 +2119,8 @@ GameObject:
   - component: {fileID: 5493062099792477406}
   - component: {fileID: 4436382804144217754}
   - component: {fileID: 804792681136885897}
-  - component: {fileID: 8203709647008348109}
   - component: {fileID: 5412778571757027602}
+  - component: {fileID: 901600186763970474}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.040"
   m_TagString: WallParticle
@@ -2335,22 +2335,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.005164667, y: 0.0022984124, z: 0.0022586416}
   m_Center: {x: 0.0012235859, y: 0.00007345165, z: 0.00017113404}
---- !u!114 &8203709647008348109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1633649344297824273}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &5412778571757027602
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2367,6 +2351,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &901600186763970474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633649344297824273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &1792605477566147355
 GameObject:
   m_ObjectHideFlags: 0
@@ -2382,8 +2382,8 @@ GameObject:
   - component: {fileID: 7411287357396576586}
   - component: {fileID: 1599525435826485913}
   - component: {fileID: 7445921259840499894}
-  - component: {fileID: 799295775928487048}
   - component: {fileID: 8330070893451803367}
+  - component: {fileID: 2896075595831295404}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.003"
   m_TagString: WallParticle
@@ -2598,22 +2598,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.008695632, y: 0.0022984126, z: 0.006454428}
   m_Center: {x: -0.00021038204, y: 0.00023660819, z: -0.0013994179}
---- !u!114 &799295775928487048
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1792605477566147355}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &8330070893451803367
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2630,6 +2614,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2896075595831295404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792605477566147355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &1832626262173297311
 GameObject:
   m_ObjectHideFlags: 0
@@ -2645,8 +2645,8 @@ GameObject:
   - component: {fileID: 5228829018525409417}
   - component: {fileID: 4710885450069480845}
   - component: {fileID: 2943995354725065883}
-  - component: {fileID: 3444380847424381341}
   - component: {fileID: 2511024058165173390}
+  - component: {fileID: 5404987013927941032}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.006"
   m_TagString: WallParticle
@@ -2861,22 +2861,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0044324026, y: 0.0013621369, z: 0.00079261913}
   m_Center: {x: 0.00064250967, y: -0.00034053414, z: 0.00019815461}
---- !u!114 &3444380847424381341
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1832626262173297311}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &2511024058165173390
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2893,6 +2877,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5404987013927941032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832626262173297311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &1960552165209027710
 GameObject:
   m_ObjectHideFlags: 0
@@ -2908,8 +2908,8 @@ GameObject:
   - component: {fileID: 1439651264572243262}
   - component: {fileID: 3180580063800893656}
   - component: {fileID: 5465741432899254482}
-  - component: {fileID: 5412243758859961270}
   - component: {fileID: 7480088508502298003}
+  - component: {fileID: 7937928856758271624}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.005"
   m_TagString: WallParticle
@@ -3124,22 +3124,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.008899161, y: 0.0021349043, z: 0.0068231523}
   m_Center: {x: 0.0009961528, y: 0.00022413688, z: -0.00024704955}
---- !u!114 &5412243758859961270
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1960552165209027710}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &7480088508502298003
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3156,6 +3140,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7937928856758271624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960552165209027710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &2038451304428055524
 GameObject:
   m_ObjectHideFlags: 0
@@ -3171,8 +3171,8 @@ GameObject:
   - component: {fileID: 7175174625508039367}
   - component: {fileID: 4360347488338770620}
   - component: {fileID: 6855568782428832333}
-  - component: {fileID: 5947379555661455259}
   - component: {fileID: 2200348652210386661}
+  - component: {fileID: 6828599797237387076}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.053"
   m_TagString: WallParticle
@@ -3387,22 +3387,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0013193398, y: 0.00045085137, z: 0.0024145506}
   m_Center: {x: 0.00002562441, y: -0.00012533288, z: 0.00018579411}
---- !u!114 &5947379555661455259
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2038451304428055524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &2200348652210386661
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3419,6 +3403,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6828599797237387076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038451304428055524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &2114723673871592086
 GameObject:
   m_ObjectHideFlags: 0
@@ -3434,8 +3434,8 @@ GameObject:
   - component: {fileID: 8151277094589627074}
   - component: {fileID: 854236692705640467}
   - component: {fileID: 7948215379892537713}
-  - component: {fileID: 7896261496690061965}
   - component: {fileID: 1127574663504849407}
+  - component: {fileID: 869043117072534406}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.047"
   m_TagString: WallParticle
@@ -3650,22 +3650,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0041935397, y: 0.0022984124, z: 0.004740198}
   m_Center: {x: 0.00006739574, y: 0.00039155738, z: 0.00014400724}
---- !u!114 &7896261496690061965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2114723673871592086}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &1127574663504849407
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3682,6 +3666,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &869043117072534406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2114723673871592086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &2146198854626687347
 GameObject:
   m_ObjectHideFlags: 0
@@ -3697,8 +3697,8 @@ GameObject:
   - component: {fileID: 8503900471746154669}
   - component: {fileID: 7143557922597264295}
   - component: {fileID: 8562452487198061447}
-  - component: {fileID: 4626686122831916539}
   - component: {fileID: 5887578828077877425}
+  - component: {fileID: 5918639396823896411}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.065"
   m_TagString: WallParticle
@@ -3913,22 +3913,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.007247217, y: 0.0021349043, z: 0.0054996572}
   m_Center: {x: 0.00024667056, y: 0.00015160744, z: 0.00031024258}
---- !u!114 &4626686122831916539
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2146198854626687347}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &5887578828077877425
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3945,6 +3929,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5918639396823896411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146198854626687347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &2200778657149456004
 GameObject:
   m_ObjectHideFlags: 0
@@ -3960,8 +3960,8 @@ GameObject:
   - component: {fileID: 3848706460742246771}
   - component: {fileID: 5421250427492446245}
   - component: {fileID: 272383634129673342}
-  - component: {fileID: 697529131591540586}
   - component: {fileID: 2197417949723883370}
+  - component: {fileID: 4791438209327390379}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.016"
   m_TagString: WallParticle
@@ -4176,22 +4176,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0067165294, y: 0.0022984124, z: 0.0061956393}
   m_Center: {x: 0.00022904424, y: 0.00008437723, z: 0.0007083169}
---- !u!114 &697529131591540586
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2200778657149456004}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &2197417949723883370
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4208,6 +4192,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4791438209327390379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2200778657149456004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &2613907227665666974
 GameObject:
   m_ObjectHideFlags: 0
@@ -4223,8 +4223,8 @@ GameObject:
   - component: {fileID: 7854171298002020351}
   - component: {fileID: 6833538086550634367}
   - component: {fileID: 1342005177544331439}
-  - component: {fileID: 7657165400613546287}
   - component: {fileID: 664393747438118601}
+  - component: {fileID: 5102856686974173462}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.057"
   m_TagString: WallParticle
@@ -4439,22 +4439,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0044816053, y: 0.0021349043, z: 0.0059048575}
   m_Center: {x: 0.00030263478, y: 0.00015374986, z: -0.00036464323}
---- !u!114 &7657165400613546287
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2613907227665666974}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &664393747438118601
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4471,6 +4455,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5102856686974173462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2613907227665666974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &2623445211104154810
 GameObject:
   m_ObjectHideFlags: 0
@@ -4486,8 +4486,8 @@ GameObject:
   - component: {fileID: 8768484743293178743}
   - component: {fileID: 2391017984330814878}
   - component: {fileID: 8066240798442161866}
-  - component: {fileID: 3645340165662721699}
   - component: {fileID: 8581410518227877038}
+  - component: {fileID: 6902041799877610870}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.049"
   m_TagString: WallParticle
@@ -4702,22 +4702,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0044861743, y: 0.0018453785, z: 0.0054224646}
   m_Center: {x: -0.001022673, y: -0.0005430464, z: 0.00044891614}
---- !u!114 &3645340165662721699
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2623445211104154810}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &8581410518227877038
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4734,6 +4718,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6902041799877610870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2623445211104154810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &2715598911680910116
 GameObject:
   m_ObjectHideFlags: 0
@@ -4749,8 +4749,8 @@ GameObject:
   - component: {fileID: 4277877318263202162}
   - component: {fileID: 4592991334856972418}
   - component: {fileID: 3202803987328412980}
-  - component: {fileID: 6946239234715800549}
   - component: {fileID: 8418623499142221540}
+  - component: {fileID: 1081809439757733748}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.021"
   m_TagString: WallParticle
@@ -4965,22 +4965,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0035414672, y: 0.0011714413, z: 0.008640215}
   m_Center: {x: -0.00037603034, y: -0.00027376536, z: 0.0011185772}
---- !u!114 &6946239234715800549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2715598911680910116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &8418623499142221540
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4997,6 +4981,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1081809439757733748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2715598911680910116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &2890116835079089820
 GameObject:
   m_ObjectHideFlags: 0
@@ -5012,8 +5012,8 @@ GameObject:
   - component: {fileID: 718264908929379213}
   - component: {fileID: 8552085703409746659}
   - component: {fileID: 1174661201389325691}
-  - component: {fileID: 1910164345524562440}
   - component: {fileID: 5863409033179765393}
+  - component: {fileID: 97822070916090993}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.042"
   m_TagString: WallParticle
@@ -5228,22 +5228,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.007287124, y: 0.0022984126, z: 0.004834599}
   m_Center: {x: 0.00046417478, y: 0.00020098101, z: -0.0006719235}
---- !u!114 &1910164345524562440
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2890116835079089820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &5863409033179765393
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5260,6 +5244,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &97822070916090993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2890116835079089820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &3057909448569439355
 GameObject:
   m_ObjectHideFlags: 0
@@ -5275,8 +5275,8 @@ GameObject:
   - component: {fileID: 3828928086677096702}
   - component: {fileID: 8498882996856649479}
   - component: {fileID: 4249477325136601351}
-  - component: {fileID: 6575645557066146563}
   - component: {fileID: 6778887708848660460}
+  - component: {fileID: 602614972094559742}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.069"
   m_TagString: WallParticle
@@ -5491,22 +5491,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0063349204, y: 0.0022984124, z: 0.006401916}
   m_Center: {x: 0.00053501886, y: 0.00032225103, z: -0.0011867491}
---- !u!114 &6575645557066146563
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3057909448569439355}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &6778887708848660460
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5523,6 +5507,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &602614972094559742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3057909448569439355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &3298575576720879359
 GameObject:
   m_ObjectHideFlags: 0
@@ -5538,8 +5538,8 @@ GameObject:
   - component: {fileID: 4475448358466639513}
   - component: {fileID: 4924816093764430139}
   - component: {fileID: 7571870093028695685}
-  - component: {fileID: 8034845784414456972}
   - component: {fileID: 363990589847996108}
+  - component: {fileID: 3183627494326585064}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.048"
   m_TagString: WallParticle
@@ -5754,22 +5754,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.008225252, y: 0.0022984124, z: 0.0051417705}
   m_Center: {x: 0.00095305697, y: -0.00009616806, z: 0.0005811744}
---- !u!114 &8034845784414456972
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3298575576720879359}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &363990589847996108
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5786,6 +5770,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3183627494326585064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3298575576720879359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &3485880389416821906
 GameObject:
   m_ObjectHideFlags: 0
@@ -5801,8 +5801,8 @@ GameObject:
   - component: {fileID: 1569213617534168790}
   - component: {fileID: 8716728677916147474}
   - component: {fileID: 5837612481544742321}
-  - component: {fileID: 8122937053513141295}
   - component: {fileID: 8200500762777370038}
+  - component: {fileID: 8695203166153499057}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.066"
   m_TagString: WallParticle
@@ -6017,22 +6017,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.008605985, y: 0.0022984126, z: 0.0035087445}
   m_Center: {x: 0.00025609648, y: 0.00031777503, z: -0.00001889915}
---- !u!114 &8122937053513141295
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3485880389416821906}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &8200500762777370038
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6049,6 +6033,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8695203166153499057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3485880389416821906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &3637167198118485678
 GameObject:
   m_ObjectHideFlags: 0
@@ -6064,8 +6064,8 @@ GameObject:
   - component: {fileID: 7324321588670721482}
   - component: {fileID: 3465828783019911239}
   - component: {fileID: 7628469721978915301}
-  - component: {fileID: 8936656974999152319}
   - component: {fileID: 3346541722687512798}
+  - component: {fileID: 1949173906857878468}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.024"
   m_TagString: WallParticle
@@ -6280,22 +6280,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0051751463, y: 0.0022984124, z: 0.0074703186}
   m_Center: {x: -0.00013689545, y: 0.00010006617, z: -0.00037061964}
---- !u!114 &8936656974999152319
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3637167198118485678}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &3346541722687512798
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6312,6 +6296,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1949173906857878468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3637167198118485678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &3967450593772754393
 GameObject:
   m_ObjectHideFlags: 0
@@ -6327,8 +6327,8 @@ GameObject:
   - component: {fileID: 9211600375998983173}
   - component: {fileID: 7496707239837865371}
   - component: {fileID: 349504183305195999}
-  - component: {fileID: 2521438935303687243}
   - component: {fileID: 4592549358322498289}
+  - component: {fileID: 492504466929572449}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.063"
   m_TagString: WallParticle
@@ -6543,22 +6543,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0028812792, y: 0.0018434495, z: 0.009126637}
   m_Center: {x: 0.000048901944, y: 0.0002748492, z: 0.000092903836}
---- !u!114 &2521438935303687243
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3967450593772754393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &4592549358322498289
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6575,6 +6559,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &492504466929572449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3967450593772754393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &3995791092731973325
 GameObject:
   m_ObjectHideFlags: 0
@@ -6590,8 +6590,8 @@ GameObject:
   - component: {fileID: 4587984801030909770}
   - component: {fileID: 1539850425326085872}
   - component: {fileID: 3413407009514863204}
-  - component: {fileID: 8007864858678512187}
   - component: {fileID: 4729554196257656164}
+  - component: {fileID: 2238916185801128800}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.045"
   m_TagString: WallParticle
@@ -6806,22 +6806,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.009911802, y: 0.0021349043, z: 0.009266248}
   m_Center: {x: 0.00044631562, y: 0.00023469354, z: 0.0002166165}
---- !u!114 &8007864858678512187
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3995791092731973325}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &4729554196257656164
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6838,6 +6822,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2238916185801128800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3995791092731973325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &4207092363587235408
 GameObject:
   m_ObjectHideFlags: 0
@@ -6853,8 +6853,8 @@ GameObject:
   - component: {fileID: 7426657047881246813}
   - component: {fileID: 6519221228856173103}
   - component: {fileID: 4184547420054316622}
-  - component: {fileID: 2157207608737265467}
   - component: {fileID: 3405682465905297886}
+  - component: {fileID: 1873990311095171929}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.023"
   m_TagString: WallParticle
@@ -7069,22 +7069,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0029897392, y: 0.0022984124, z: 0.007676712}
   m_Center: {x: 0.00002033099, y: 0.00033435007, z: -0.0012367337}
---- !u!114 &2157207608737265467
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4207092363587235408}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &3405682465905297886
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7101,6 +7085,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1873990311095171929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4207092363587235408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &4337555810431668870
 GameObject:
   m_ObjectHideFlags: 0
@@ -7116,8 +7116,8 @@ GameObject:
   - component: {fileID: 5965195402987065634}
   - component: {fileID: 5718701414355195684}
   - component: {fileID: 7134260629812013322}
-  - component: {fileID: 7346722922463130889}
   - component: {fileID: 2336065239755791669}
+  - component: {fileID: 8159179404267987664}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.017"
   m_TagString: WallParticle
@@ -7332,22 +7332,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0050065513, y: 0.0012087045, z: 0.0035501337}
   m_Center: {x: 0.0005646773, y: 0.00018733005, z: 0.0005230815}
---- !u!114 &7346722922463130889
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4337555810431668870}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &2336065239755791669
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7364,6 +7348,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8159179404267987664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4337555810431668870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &4537240058223973624
 GameObject:
   m_ObjectHideFlags: 0
@@ -7379,8 +7379,8 @@ GameObject:
   - component: {fileID: 3555709588860214547}
   - component: {fileID: 2012955296266422015}
   - component: {fileID: 7794754366384277192}
-  - component: {fileID: 5902245488123890850}
   - component: {fileID: 6863223660172524970}
+  - component: {fileID: 3206749984700250675}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.064"
   m_TagString: WallParticle
@@ -7595,22 +7595,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0073040547, y: 0.0022984124, z: 0.005420321}
   m_Center: {x: -0.0023047766, y: -0.00030398334, z: -0.0011159081}
---- !u!114 &5902245488123890850
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4537240058223973624}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &6863223660172524970
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7627,6 +7611,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3206749984700250675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4537240058223973624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &4661108217603292816
 GameObject:
   m_ObjectHideFlags: 0
@@ -7642,8 +7642,8 @@ GameObject:
   - component: {fileID: 3811081204156243228}
   - component: {fileID: 672839144982036783}
   - component: {fileID: 5331941552184307816}
-  - component: {fileID: 4311959358810099368}
   - component: {fileID: 4765314428222700926}
+  - component: {fileID: 3369065796720999193}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.043"
   m_TagString: WallParticle
@@ -7858,22 +7858,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.006455083, y: 0.0022984126, z: 0.004933844}
   m_Center: {x: 0.000053549185, y: 0.00022369759, z: 0.000104361425}
---- !u!114 &4311959358810099368
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4661108217603292816}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &4765314428222700926
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7890,6 +7874,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3369065796720999193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4661108217603292816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &4815769858567545222
 GameObject:
   m_ObjectHideFlags: 0
@@ -7905,8 +7905,8 @@ GameObject:
   - component: {fileID: 7546260726517054756}
   - component: {fileID: 3521955505673561402}
   - component: {fileID: 5729081212243923033}
-  - component: {fileID: 8664876701513876263}
   - component: {fileID: 1538933062187204506}
+  - component: {fileID: 8410729122425057831}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.038"
   m_TagString: WallParticle
@@ -8121,22 +8121,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0071140327, y: 0.0022984124, z: 0.0089550605}
   m_Center: {x: -0.00086697936, y: 0.000029437704, z: -0.0011617166}
---- !u!114 &8664876701513876263
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4815769858567545222}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &1538933062187204506
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8153,6 +8137,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8410729122425057831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4815769858567545222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &4898097962242293535
 GameObject:
   m_ObjectHideFlags: 0
@@ -8168,8 +8168,8 @@ GameObject:
   - component: {fileID: 1514436718984427500}
   - component: {fileID: 9088128633363489185}
   - component: {fileID: 2065363389103440362}
-  - component: {fileID: 6064075654836011107}
   - component: {fileID: 1777520052827484488}
+  - component: {fileID: 4089164714619122323}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.056"
   m_TagString: WallParticle
@@ -8384,22 +8384,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.00404971, y: 0.000767033, z: 0.004779487}
   m_Center: {x: 0.000008183182, y: -0.00019175815, z: 0.00016228433}
---- !u!114 &6064075654836011107
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4898097962242293535}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &1777520052827484488
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8416,6 +8400,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4089164714619122323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4898097962242293535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &4959650127401581938
 GameObject:
   m_ObjectHideFlags: 0
@@ -8431,8 +8431,8 @@ GameObject:
   - component: {fileID: 8096787188788565522}
   - component: {fileID: 6439660383287322384}
   - component: {fileID: 1400506683364345097}
-  - component: {fileID: 4788050423024209192}
   - component: {fileID: 6265722872661246244}
+  - component: {fileID: 3161488229665265698}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.067"
   m_TagString: WallParticle
@@ -8647,22 +8647,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.005024507, y: 0.0022984124, z: 0.0052444423}
   m_Center: {x: 0.0006224511, y: 0.0004387657, z: -0.0001774657}
---- !u!114 &4788050423024209192
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4959650127401581938}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &6265722872661246244
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8679,6 +8663,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3161488229665265698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4959650127401581938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &5115183857506885864
 GameObject:
   m_ObjectHideFlags: 0
@@ -8808,72 +8808,72 @@ MonoBehaviour:
   OwnershipTransfer: 0
   observableSearch: 2
   ObservedComponents:
-  - {fileID: 4937021021760918722}
-  - {fileID: 7470718808761782047}
-  - {fileID: 2750802870664173775}
-  - {fileID: 799295775928487048}
-  - {fileID: 8680738728342628906}
-  - {fileID: 5412243758859961270}
-  - {fileID: 3444380847424381341}
-  - {fileID: 8777543631122964611}
-  - {fileID: 5822052144094847158}
-  - {fileID: 8528376777663183251}
-  - {fileID: 547463790078266219}
-  - {fileID: 72768293396516728}
-  - {fileID: 5745780397088964116}
-  - {fileID: 3611884717298066698}
-  - {fileID: 4573167761766013896}
-  - {fileID: 697529131591540586}
-  - {fileID: 7346722922463130889}
-  - {fileID: 2347453491963951013}
-  - {fileID: 2067144950876527246}
-  - {fileID: 2642435171090273912}
-  - {fileID: 6946239234715800549}
-  - {fileID: 3707743837291475472}
-  - {fileID: 2157207608737265467}
-  - {fileID: 8936656974999152319}
-  - {fileID: 1806795665373718550}
-  - {fileID: 5933931529569226060}
-  - {fileID: 8392886252084275962}
-  - {fileID: 8654408346028064394}
-  - {fileID: 4363659671351649708}
-  - {fileID: 405282054381436283}
-  - {fileID: 8722938322189149519}
-  - {fileID: 728974986732816754}
-  - {fileID: 2191941954377485438}
-  - {fileID: 7201555622509572434}
-  - {fileID: 5941950938276989720}
-  - {fileID: 8664876701513876263}
-  - {fileID: 7991459118016964986}
-  - {fileID: 8203709647008348109}
-  - {fileID: 7781366439412362209}
-  - {fileID: 1910164345524562440}
-  - {fileID: 4311959358810099368}
-  - {fileID: 816790691796952130}
-  - {fileID: 8007864858678512187}
-  - {fileID: 6274536414141429076}
-  - {fileID: 7896261496690061965}
-  - {fileID: 8034845784414456972}
-  - {fileID: 3645340165662721699}
-  - {fileID: 7934210281191589384}
-  - {fileID: 2175873116937570778}
-  - {fileID: 4022509665181753347}
-  - {fileID: 5947379555661455259}
-  - {fileID: 7864004764068362066}
-  - {fileID: 2508157385607580790}
-  - {fileID: 6064075654836011107}
-  - {fileID: 7657165400613546287}
-  - {fileID: 3171822366915573021}
-  - {fileID: 8558441666620849729}
-  - {fileID: 733398003948445419}
-  - {fileID: 4303032565807010890}
-  - {fileID: 2521438935303687243}
-  - {fileID: 5902245488123890850}
-  - {fileID: 4626686122831916539}
-  - {fileID: 8122937053513141295}
-  - {fileID: 4788050423024209192}
-  - {fileID: 3473426377991807168}
-  - {fileID: 6575645557066146563}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -8892,8 +8892,8 @@ GameObject:
   - component: {fileID: 5553401305398678712}
   - component: {fileID: 74358586412542625}
   - component: {fileID: 5772994453390750607}
-  - component: {fileID: 2347453491963951013}
   - component: {fileID: 118380904260699770}
+  - component: {fileID: 6090774295469231822}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.018"
   m_TagString: WallParticle
@@ -9108,22 +9108,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0035739257, y: 0.0022984126, z: 0.0014935515}
   m_Center: {x: -0.0004077198, y: -0.000047327594, z: -0.000111131354}
---- !u!114 &2347453491963951013
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5196573769370552693}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &118380904260699770
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9140,6 +9124,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6090774295469231822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5196573769370552693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &5479221650641141649
 GameObject:
   m_ObjectHideFlags: 0
@@ -9155,8 +9155,8 @@ GameObject:
   - component: {fileID: 6537366581180584194}
   - component: {fileID: 1938483205807035290}
   - component: {fileID: 3989112237964991045}
-  - component: {fileID: 733398003948445419}
   - component: {fileID: 4699807783859551807}
+  - component: {fileID: 7289081280088718100}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.061"
   m_TagString: WallParticle
@@ -9371,22 +9371,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.005966223, y: 0.0022984124, z: 0.0065081106}
   m_Center: {x: -0.0001739182, y: 0.00021786573, z: 0.00012600861}
---- !u!114 &733398003948445419
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5479221650641141649}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &4699807783859551807
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9403,6 +9387,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7289081280088718100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5479221650641141649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &5524671530082468664
 GameObject:
   m_ObjectHideFlags: 0
@@ -9418,8 +9418,8 @@ GameObject:
   - component: {fileID: 3462995219872717347}
   - component: {fileID: 1794702897936591576}
   - component: {fileID: 2877931396705338273}
-  - component: {fileID: 2642435171090273912}
   - component: {fileID: 4600042927315638736}
+  - component: {fileID: 2733572497306747833}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.020"
   m_TagString: WallParticle
@@ -9634,22 +9634,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0061021773, y: 0.002128698, z: 0.0047527174}
   m_Center: {x: 0.0004956606, y: 0.00011476217, z: 0.00049723533}
---- !u!114 &2642435171090273912
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5524671530082468664}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &4600042927315638736
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9666,6 +9650,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2733572497306747833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5524671530082468664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &5658817996760105547
 GameObject:
   m_ObjectHideFlags: 0
@@ -9681,8 +9681,8 @@ GameObject:
   - component: {fileID: 8082014660573140453}
   - component: {fileID: 2391220988395496103}
   - component: {fileID: 624614040564206735}
-  - component: {fileID: 2067144950876527246}
   - component: {fileID: 6137004025141022124}
+  - component: {fileID: 4091043162661613310}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.019"
   m_TagString: WallParticle
@@ -9897,22 +9897,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.005640653, y: 0.0022984124, z: 0.0020051645}
   m_Center: {x: 0.000019724364, y: -5.820765e-11, z: 0.0003097905}
---- !u!114 &2067144950876527246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5658817996760105547}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &6137004025141022124
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9929,6 +9913,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4091043162661613310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5658817996760105547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &5682467985761749131
 GameObject:
   m_ObjectHideFlags: 0
@@ -9944,8 +9944,8 @@ GameObject:
   - component: {fileID: 2218100387081885719}
   - component: {fileID: 5798364453277206705}
   - component: {fileID: 2108530808210345123}
-  - component: {fileID: 8392886252084275962}
   - component: {fileID: 691303896797665846}
+  - component: {fileID: 751703318298478382}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.027"
   m_TagString: WallParticle
@@ -10160,22 +10160,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.007319376, y: 0.0022984126, z: 0.008324549}
   m_Center: {x: -0.00045542128, y: 0.00036618396, z: -0.000023968281}
---- !u!114 &8392886252084275962
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5682467985761749131}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &691303896797665846
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10192,6 +10176,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &751703318298478382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5682467985761749131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &5862488453210876294
 GameObject:
   m_ObjectHideFlags: 0
@@ -10207,8 +10207,8 @@ GameObject:
   - component: {fileID: 6663280405293729322}
   - component: {fileID: 4103354094153590366}
   - component: {fileID: 3221843551575907442}
-  - component: {fileID: 3611884717298066698}
   - component: {fileID: 9179797836774322278}
+  - component: {fileID: 3715096434156084816}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.014"
   m_TagString: WallParticle
@@ -10423,22 +10423,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0052461596, y: 0.0021349043, z: 0.004877284}
   m_Center: {x: 0.0003562607, y: 0.000049697053, z: -0.00014758084}
---- !u!114 &3611884717298066698
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5862488453210876294}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &9179797836774322278
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10455,6 +10439,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3715096434156084816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5862488453210876294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &5974230198438403792
 GameObject:
   m_ObjectHideFlags: 0
@@ -10470,8 +10470,8 @@ GameObject:
   - component: {fileID: 6163156831320747443}
   - component: {fileID: 8666995641082035099}
   - component: {fileID: 730788141979953238}
-  - component: {fileID: 405282054381436283}
   - component: {fileID: 4782410989954243396}
+  - component: {fileID: 8254069752943237493}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.031"
   m_TagString: WallParticle
@@ -10686,22 +10686,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.006122322, y: 0.0019335327, z: 0.006352811}
   m_Center: {x: 0.00017597328, y: -0.00014898134, z: -0.00021953795}
---- !u!114 &405282054381436283
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5974230198438403792}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &4782410989954243396
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10718,6 +10702,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8254069752943237493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5974230198438403792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &6160735084992831518
 GameObject:
   m_ObjectHideFlags: 0
@@ -10733,8 +10733,8 @@ GameObject:
   - component: {fileID: 3479320922829606821}
   - component: {fileID: 4986979950718968900}
   - component: {fileID: 6892336242022960615}
-  - component: {fileID: 1806795665373718550}
   - component: {fileID: 2047471101074932125}
+  - component: {fileID: 5165270477256983230}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.025"
   m_TagString: WallParticle
@@ -10949,22 +10949,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0046375627, y: 0.0022984124, z: 0.0068131792}
   m_Center: {x: 0.00012751122, y: 0.000052352716, z: -0.00033299584}
---- !u!114 &1806795665373718550
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6160735084992831518}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &2047471101074932125
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10981,6 +10965,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5165270477256983230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6160735084992831518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &6254683247913977922
 GameObject:
   m_ObjectHideFlags: 0
@@ -10996,8 +10996,8 @@ GameObject:
   - component: {fileID: 1812816639154626430}
   - component: {fileID: 2146239456947319195}
   - component: {fileID: 1662818600489636716}
-  - component: {fileID: 3171822366915573021}
   - component: {fileID: 8422541097763650747}
+  - component: {fileID: 2532622682703621044}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.059"
   m_TagString: WallParticle
@@ -11212,22 +11212,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.010647803, y: 0.0021349043, z: 0.008388672}
   m_Center: {x: 0.00003777095, y: 0.00032909226, z: 0.000051710977}
---- !u!114 &3171822366915573021
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6254683247913977922}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &8422541097763650747
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11244,6 +11228,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2532622682703621044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6254683247913977922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &6386532042276250298
 GameObject:
   m_ObjectHideFlags: 0
@@ -11259,8 +11259,8 @@ GameObject:
   - component: {fileID: 4751097373650287832}
   - component: {fileID: 1225396953137110225}
   - component: {fileID: 4327082877578487804}
-  - component: {fileID: 728974986732816754}
   - component: {fileID: 2713693000472800481}
+  - component: {fileID: 8065999657282855561}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.033"
   m_TagString: WallParticle
@@ -11475,22 +11475,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.004100075, y: 0.0022984128, z: 0.005207315}
   m_Center: {x: -0.00028168486, y: 0.00007307138, z: -0.00028009753}
---- !u!114 &728974986732816754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6386532042276250298}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &2713693000472800481
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11507,6 +11491,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8065999657282855561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6386532042276250298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &6432121232466247153
 GameObject:
   m_ObjectHideFlags: 0
@@ -11522,8 +11522,8 @@ GameObject:
   - component: {fileID: 912653963876663015}
   - component: {fileID: 8377963631654582103}
   - component: {fileID: 1718104712665485526}
-  - component: {fileID: 5941950938276989720}
   - component: {fileID: 7758811792361190891}
+  - component: {fileID: 1423647587632975367}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.037"
   m_TagString: WallParticle
@@ -11738,22 +11738,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.006804918, y: 0.0022984124, z: 0.00335318}
   m_Center: {x: -0.00021166017, y: 0.00012768983, z: -0.000038426013}
---- !u!114 &5941950938276989720
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6432121232466247153}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &7758811792361190891
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11770,6 +11754,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1423647587632975367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6432121232466247153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &6440267370577391917
 GameObject:
   m_ObjectHideFlags: 0
@@ -11785,8 +11785,8 @@ GameObject:
   - component: {fileID: 6397117881327452844}
   - component: {fileID: 5573333862918586771}
   - component: {fileID: 6530622561947705453}
-  - component: {fileID: 2508157385607580790}
   - component: {fileID: 6418785953374220128}
+  - component: {fileID: 2367913688520914436}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.055"
   m_TagString: WallParticle
@@ -12001,22 +12001,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.00607334, y: 0.0017957877, z: 0.0054977555}
   m_Center: {x: 0.0006327763, y: -0.00007078094, z: -0.0002843722}
---- !u!114 &2508157385607580790
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6440267370577391917}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &6418785953374220128
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12033,6 +12017,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2367913688520914436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6440267370577391917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &6542356182258241243
 GameObject:
   m_ObjectHideFlags: 0
@@ -12048,8 +12048,8 @@ GameObject:
   - component: {fileID: 8140222257014287827}
   - component: {fileID: 4460113898184353008}
   - component: {fileID: 8953904607864268651}
-  - component: {fileID: 816790691796952130}
   - component: {fileID: 5506618609860333197}
+  - component: {fileID: 3114955754330447059}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.044"
   m_TagString: WallParticle
@@ -12264,22 +12264,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0054691276, y: 0.0022984126, z: 0.001841402}
   m_Center: {x: 0.00032514113, y: -0.00011024354, z: -0.00015524635}
---- !u!114 &816790691796952130
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6542356182258241243}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &5506618609860333197
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12296,6 +12280,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3114955754330447059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6542356182258241243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &6866978505052470879
 GameObject:
   m_ObjectHideFlags: 0
@@ -12311,8 +12311,8 @@ GameObject:
   - component: {fileID: 4324465326378365754}
   - component: {fileID: 2900292825085335141}
   - component: {fileID: 371611816577692891}
-  - component: {fileID: 5933931529569226060}
   - component: {fileID: 2409687589281098818}
+  - component: {fileID: 2313913683201449144}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.026"
   m_TagString: WallParticle
@@ -12527,22 +12527,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.00014908767, y: 0.000055394878, z: 0.00025112665}
   m_Center: {x: 0.000037270926, y: 0.00001384866, z: -0.000042243282}
---- !u!114 &5933931529569226060
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6866978505052470879}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &2409687589281098818
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12559,6 +12543,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2313913683201449144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6866978505052470879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &7230013765263504477
 GameObject:
   m_ObjectHideFlags: 0
@@ -12574,8 +12574,8 @@ GameObject:
   - component: {fileID: 6652923819785489881}
   - component: {fileID: 6921736369141957477}
   - component: {fileID: 6768813256252921808}
-  - component: {fileID: 72768293396516728}
   - component: {fileID: 1217935158378344545}
+  - component: {fileID: 3478333988212064287}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.012"
   m_TagString: WallParticle
@@ -12790,22 +12790,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0051508453, y: 0.0022984124, z: 0.0068994}
   m_Center: {x: 0.000038648257, y: 0.000186541, z: -0.00003611028}
---- !u!114 &72768293396516728
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7230013765263504477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &1217935158378344545
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12822,6 +12806,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3478333988212064287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7230013765263504477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &7237792333288336611
 GameObject:
   m_ObjectHideFlags: 0
@@ -12837,8 +12837,8 @@ GameObject:
   - component: {fileID: 2758864873050821053}
   - component: {fileID: 2926421221801143164}
   - component: {fileID: 4505763877245039488}
-  - component: {fileID: 7470718808761782047}
   - component: {fileID: 3441315975827669727}
+  - component: {fileID: 5965450583656032801}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.001"
   m_TagString: WallParticle
@@ -13053,22 +13053,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.00282483, y: 0.0022984128, z: 0.0058177426}
   m_Center: {x: -0.0000751309, y: -0.0000047609783, z: -0.0005401595}
---- !u!114 &7470718808761782047
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7237792333288336611}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &3441315975827669727
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13085,6 +13069,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5965450583656032801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7237792333288336611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &7358768152101000477
 GameObject:
   m_ObjectHideFlags: 0
@@ -13100,8 +13100,8 @@ GameObject:
   - component: {fileID: 2512444415451903589}
   - component: {fileID: 5493054830598773631}
   - component: {fileID: 4102965872763451067}
-  - component: {fileID: 2175873116937570778}
   - component: {fileID: 6514497762969796485}
+  - component: {fileID: 2653809792983577059}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.051"
   m_TagString: WallParticle
@@ -13316,22 +13316,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0024881533, y: 0.00049366034, z: 0.002272041}
   m_Center: {x: 0.00034328617, y: -0.00013640712, z: 0.00011929501}
---- !u!114 &2175873116937570778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7358768152101000477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &6514497762969796485
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13348,6 +13332,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2653809792983577059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7358768152101000477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &7446994119071570313
 GameObject:
   m_ObjectHideFlags: 0
@@ -13363,8 +13363,8 @@ GameObject:
   - component: {fileID: 9056057537536524151}
   - component: {fileID: 9174251386110675039}
   - component: {fileID: 7489440174006346144}
-  - component: {fileID: 4303032565807010890}
   - component: {fileID: 9007141653361730490}
+  - component: {fileID: 7865824538385106161}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.062"
   m_TagString: WallParticle
@@ -13579,22 +13579,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.009994796, y: 0.0021349043, z: 0.0072862073}
   m_Center: {x: -0.0007006675, y: 0.000046892026, z: 0.000064837615}
---- !u!114 &4303032565807010890
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7446994119071570313}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &9007141653361730490
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13611,6 +13595,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7865824538385106161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7446994119071570313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &7689289207291496774
 GameObject:
   m_ObjectHideFlags: 0
@@ -13626,8 +13626,8 @@ GameObject:
   - component: {fileID: 3160692456888412826}
   - component: {fileID: 2357886727436692689}
   - component: {fileID: 6998125317776247466}
-  - component: {fileID: 7864004764068362066}
   - component: {fileID: 4410077227134239170}
+  - component: {fileID: 5835533933795385038}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.054"
   m_TagString: WallParticle
@@ -13842,22 +13842,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0071204593, y: 0.0022984126, z: 0.003267476}
   m_Center: {x: -0.0005675666, y: 0.0002137691, z: -0.000029388693}
---- !u!114 &7864004764068362066
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7689289207291496774}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &4410077227134239170
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13874,6 +13858,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5835533933795385038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7689289207291496774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &7718125765851050575
 GameObject:
   m_ObjectHideFlags: 0
@@ -13889,8 +13889,8 @@ GameObject:
   - component: {fileID: 4834505347722987302}
   - component: {fileID: 3305774122835005860}
   - component: {fileID: 5509390538926484242}
-  - component: {fileID: 4937021021760918722}
   - component: {fileID: 165542467421546116}
+  - component: {fileID: 4445179288716386693}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell"
   m_TagString: WallParticle
@@ -14105,22 +14105,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0029932333, y: 0.0022984124, z: 0.007738927}
   m_Center: {x: -0.00023535825, y: 0.0004623952, z: -0.00066573406}
---- !u!114 &4937021021760918722
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7718125765851050575}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &165542467421546116
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14137,6 +14121,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4445179288716386693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7718125765851050575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &7734055290999444023
 GameObject:
   m_ObjectHideFlags: 0
@@ -14152,8 +14152,8 @@ GameObject:
   - component: {fileID: 7338487448774870973}
   - component: {fileID: 5264526307398340445}
   - component: {fileID: 8854510652749708752}
-  - component: {fileID: 8680738728342628906}
   - component: {fileID: 2537525248714214279}
+  - component: {fileID: 2657711225397167835}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.004"
   m_TagString: WallParticle
@@ -14368,22 +14368,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.00016471124, y: 0.00015781174, z: 0.00093532953}
   m_Center: {x: 0.00004117787, y: -0.000039460414, z: 0.000056936395}
---- !u!114 &8680738728342628906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7734055290999444023}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &2537525248714214279
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14400,6 +14384,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2657711225397167835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7734055290999444023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &7968500010577078979
 GameObject:
   m_ObjectHideFlags: 0
@@ -14415,8 +14415,8 @@ GameObject:
   - component: {fileID: 9069635473118775154}
   - component: {fileID: 2233756548939426360}
   - component: {fileID: 1814818301656902450}
-  - component: {fileID: 7991459118016964986}
   - component: {fileID: 6952351764104867298}
+  - component: {fileID: 3534839848970265229}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.039"
   m_TagString: WallParticle
@@ -14631,22 +14631,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0017464012, y: 0.0010769228, z: 0.0032339417}
   m_Center: {x: 0.00005980328, y: -0.0002117243, z: 0.00021527558}
---- !u!114 &7991459118016964986
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7968500010577078979}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &6952351764104867298
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14663,6 +14647,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3534839848970265229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7968500010577078979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &8053471610536896472
 GameObject:
   m_ObjectHideFlags: 0
@@ -14678,8 +14678,8 @@ GameObject:
   - component: {fileID: 9156135955106456182}
   - component: {fileID: 6217268175829546127}
   - component: {fileID: 1627695540690274141}
-  - component: {fileID: 4363659671351649708}
   - component: {fileID: 3980075381271165275}
+  - component: {fileID: 8562631598034763089}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.030"
   m_TagString: WallParticle
@@ -14894,22 +14894,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0061790994, y: 0.0022984124, z: 0.0067924075}
   m_Center: {x: -0.0009796948, y: 0.000051475527, z: -0.0003480708}
---- !u!114 &4363659671351649708
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8053471610536896472}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &3980075381271165275
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14926,6 +14910,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8562631598034763089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8053471610536896472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &8126737875566098276
 GameObject:
   m_ObjectHideFlags: 0
@@ -14941,8 +14941,8 @@ GameObject:
   - component: {fileID: 5148331666441743542}
   - component: {fileID: 4644726476415018587}
   - component: {fileID: 4273220035645547041}
-  - component: {fileID: 7934210281191589384}
   - component: {fileID: 7686630679710913687}
+  - component: {fileID: 1355139591104319344}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.050"
   m_TagString: WallParticle
@@ -15157,22 +15157,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.007529483, y: 0.0021349043, z: 0.009150201}
   m_Center: {x: -0.0010587709, y: -0.00015136378, z: 0.00044588294}
---- !u!114 &7934210281191589384
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8126737875566098276}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &7686630679710913687
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15189,6 +15173,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1355139591104319344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8126737875566098276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &8147616994813763793
 GameObject:
   m_ObjectHideFlags: 0
@@ -15204,8 +15204,8 @@ GameObject:
   - component: {fileID: 1449729088320418379}
   - component: {fileID: 6579198542452868876}
   - component: {fileID: 3418204272615061010}
-  - component: {fileID: 547463790078266219}
   - component: {fileID: 2482762643190933121}
+  - component: {fileID: 5712343728368251480}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.011"
   m_TagString: WallParticle
@@ -15420,22 +15420,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.00023927809, y: 0.00053753343, z: 0.0006503288}
   m_Center: {x: -0.00006140625, y: -0.000024127654, z: -0.000051621933}
---- !u!114 &547463790078266219
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8147616994813763793}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &2482762643190933121
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15452,6 +15436,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5712343728368251480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8147616994813763793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &8177210137330063367
 GameObject:
   m_ObjectHideFlags: 0
@@ -15467,8 +15467,8 @@ GameObject:
   - component: {fileID: 5583419161559270642}
   - component: {fileID: 3756384231311340632}
   - component: {fileID: 3054134285996001838}
-  - component: {fileID: 4573167761766013896}
   - component: {fileID: 6119516946747730118}
+  - component: {fileID: 339863740773236010}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.015"
   m_TagString: WallParticle
@@ -15683,22 +15683,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0016464228, y: 0.00026113016, z: 0.0008372205}
   m_Center: {x: -0.00003889232, y: 0.00006872772, z: -0.000057259273}
---- !u!114 &4573167761766013896
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8177210137330063367}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &6119516946747730118
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15715,6 +15699,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &339863740773236010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8177210137330063367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &8237666654944831093
 GameObject:
   m_ObjectHideFlags: 0
@@ -15730,8 +15730,8 @@ GameObject:
   - component: {fileID: 3932670028683923887}
   - component: {fileID: 3883558271718441384}
   - component: {fileID: 4665462940470506430}
-  - component: {fileID: 8777543631122964611}
   - component: {fileID: 3510135112961256125}
+  - component: {fileID: 4848485486426432323}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.007"
   m_TagString: WallParticle
@@ -15946,22 +15946,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0060360767, y: 0.0012724497, z: 0.0061205905}
   m_Center: {x: 0.00071450026, y: 0.00013339781, z: -0.001069218}
---- !u!114 &8777543631122964611
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8237666654944831093}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &3510135112961256125
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15978,6 +15962,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4848485486426432323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8237666654944831093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &8337500791398425436
 GameObject:
   m_ObjectHideFlags: 0
@@ -15993,8 +15993,8 @@ GameObject:
   - component: {fileID: 1083981668868529872}
   - component: {fileID: 4589468641490126684}
   - component: {fileID: 6601835374660494410}
-  - component: {fileID: 8722938322189149519}
   - component: {fileID: 3250141444610687792}
+  - component: {fileID: 422251553549289811}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.032"
   m_TagString: WallParticle
@@ -16209,22 +16209,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.002530412, y: 0.0022984124, z: 0.0044664023}
   m_Center: {x: 0.00063564477, y: -0.00032855716, z: -0.0000032602104}
---- !u!114 &8722938322189149519
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8337500791398425436}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &3250141444610687792
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16241,6 +16225,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &422251553549289811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8337500791398425436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &8446245846374986742
 GameObject:
   m_ObjectHideFlags: 0
@@ -16256,8 +16256,8 @@ GameObject:
   - component: {fileID: 1437293044463969310}
   - component: {fileID: 5470747139973891977}
   - component: {fileID: 5537844091740641819}
-  - component: {fileID: 3473426377991807168}
   - component: {fileID: 3576504536637040220}
+  - component: {fileID: 5674762540399218166}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.068"
   m_TagString: WallParticle
@@ -16472,22 +16472,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0033061951, y: 0.0022984126, z: 0.0025329096}
   m_Center: {x: 0.00024825422, y: -0.000067364876, z: -0.00007693433}
---- !u!114 &3473426377991807168
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8446245846374986742}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &3576504536637040220
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16504,6 +16488,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5674762540399218166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8446245846374986742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &8613291419837202660
 GameObject:
   m_ObjectHideFlags: 0
@@ -16519,8 +16519,8 @@ GameObject:
   - component: {fileID: 245059403123522480}
   - component: {fileID: 4120917033788009415}
   - component: {fileID: 8834932272803499216}
-  - component: {fileID: 6274536414141429076}
   - component: {fileID: 4058185077467674064}
+  - component: {fileID: 6888123909904850262}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.046"
   m_TagString: WallParticle
@@ -16735,22 +16735,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.005151977, y: 0.0022984126, z: 0.0026100704}
   m_Center: {x: 0.000564605, y: -0.000049846938, z: 0.000034238437}
---- !u!114 &6274536414141429076
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8613291419837202660}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &4058185077467674064
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16767,6 +16751,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6888123909904850262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8613291419837202660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &8642635215745353147
 GameObject:
   m_ObjectHideFlags: 0
@@ -16782,8 +16782,8 @@ GameObject:
   - component: {fileID: 3692433496649961077}
   - component: {fileID: 1310142008160693888}
   - component: {fileID: 8720327314525887031}
-  - component: {fileID: 3707743837291475472}
   - component: {fileID: 8127524353511748421}
+  - component: {fileID: 8257228506913105588}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.022"
   m_TagString: WallParticle
@@ -16998,22 +16998,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0015311079, y: 0.0022984126, z: 0.0028399623}
   m_Center: {x: -0.00013040303, y: 0.00018928299, z: 0.00017887875}
---- !u!114 &3707743837291475472
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8642635215745353147}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &8127524353511748421
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17030,6 +17014,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8257228506913105588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8642635215745353147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &8880280925304873352
 GameObject:
   m_ObjectHideFlags: 0
@@ -17045,8 +17045,8 @@ GameObject:
   - component: {fileID: 8911616271554080285}
   - component: {fileID: 4627261282473431776}
   - component: {fileID: 7277627865663877476}
-  - component: {fileID: 8558441666620849729}
   - component: {fileID: 744049533603389838}
+  - component: {fileID: 1827429780051766719}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.060"
   m_TagString: WallParticle
@@ -17261,22 +17261,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0024051734, y: 0.0011708136, z: 0.0011672683}
   m_Center: {x: 0.0006285262, y: -0.00016855607, z: 0.00014195411}
---- !u!114 &8558441666620849729
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8880280925304873352}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &744049533603389838
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17293,6 +17277,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1827429780051766719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8880280925304873352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &9035235224827343827
 GameObject:
   m_ObjectHideFlags: 0
@@ -17308,8 +17308,8 @@ GameObject:
   - component: {fileID: 6516921455150192022}
   - component: {fileID: 148907941461211244}
   - component: {fileID: 6243499122713917538}
-  - component: {fileID: 2750802870664173775}
   - component: {fileID: 5654545731755625288}
+  - component: {fileID: 3305821614081998350}
   m_Layer: 8
   m_Name: "\u041A\u0443\u0431_cell.002"
   m_TagString: WallParticle
@@ -17524,22 +17524,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.009219105, y: 0.0022504241, z: 0.0069789523}
   m_Center: {x: 0.00057104137, y: 0.00006455886, z: -0.00064197055}
---- !u!114 &2750802870664173775
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9035235224827343827}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 1
-  m_TeleportIfDistanceGreaterThan: 3
 --- !u!54 &5654545731755625288
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17556,3 +17540,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3305821614081998350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9035235224827343827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
