@@ -9,7 +9,20 @@ namespace Com.COLORSGAMES.TANKGAMES {
         [Header("Set in Inspector")]
         public GameObject destroyWall;
 
+        PhotonView photonView;
+
+        private void Start()
+        {
+            photonView = PhotonView.Get(this);
+        }
+
         public void Spawn()
+        {
+            photonView.RPC("rpcSpawn", RpcTarget.All);
+        }
+
+        [PunRPC]
+        private void rpcSpawn()
         {
             Instantiate(destroyWall, transform.position, transform.rotation);
             if (PhotonNetwork.IsMasterClient)

@@ -11,7 +11,7 @@ namespace Com.COLORSGAMES.TANKGAMES
         {
             if (transform.childCount == 0)
             {
-                 Destroy(this.gameObject);
+                Destroy(this.gameObject);
             }
         }
     }
