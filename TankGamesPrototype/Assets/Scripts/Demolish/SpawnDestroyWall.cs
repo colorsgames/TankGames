@@ -12,9 +12,9 @@ namespace Com.COLORSGAMES.TANKGAMES {
 
         public void Spawn()
         {
-            PhotonNetwork.Instantiate(destroyWall.name, transform.position, transform.rotation);
             if (PhotonNetwork.IsMasterClient)
             {
+                PhotonNetwork.Instantiate(destroyWall.name, transform.position, transform.rotation);
                 PhotonNetwork.Destroy(this.gameObject);
             }
         }
