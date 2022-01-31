@@ -7,11 +7,8 @@ namespace Com.COLORSGAMES.TANKGAMES
     public class Chip : MonoBehaviour
     {
         TrailRenderer line;
-
         SpawnDestroyWall spawnDestroy;
-
         Rigidbody rigid;
-
         FixedJoint joint;
 
         public int _lifeTime = 10;
@@ -27,22 +24,21 @@ namespace Com.COLORSGAMES.TANKGAMES
         float _time = 0f;
         float _distance = 0.5f;
 
-
         Vector3[] sides = new Vector3[6] { Vector3.up, Vector3.left, Vector3.down, Vector3.right, Vector3.forward, Vector3.back };
 
         public enum TypeChip : int
         {
-            Simple = 0,
-            Hard = 1,
-            Sphere = 2,
-            Soft = 3
+            SimpleRaycast = 0,
+            HardRaycast = 1,
+            HardOverlapeSphere = 2,
+            SoftRaycast = 3
         }
 
-        public TypeChip type = TypeChip.Simple;
+        public TypeChip type = TypeChip.SimpleRaycast;
 
         private void Awake()
         {
-            if (type == TypeChip.Simple || type == TypeChip.Soft) return;
+            if (type == TypeChip.SimpleRaycast || type == TypeChip.SoftRaycast) return;
             transform.parent = null;
         }
 
@@ -62,17 +58,17 @@ namespace Com.COLORSGAMES.TANKGAMES
             if (haveLive)
                 Destroy(this.gameObject, _lifeTime);
 
-            if (type == TypeChip.Simple) return;
+            if (type == TypeChip.SimpleRaycast) return;
 
-            if (type != TypeChip.Soft)
+            if (type != TypeChip.SoftRaycast)
             {
                 if (!gameObject.GetComponent<Rigidbody>())
                 {
-                    if (type == TypeChip.Hard)
+                    if (type == TypeChip.HardRaycast)
                     {
                         SeeRaycast();
                     }
-                    if (type == TypeChip.Sphere)
+                    if (type == TypeChip.HardOverlapeSphere)
                     {
                         SeeShpere();
                     }
@@ -110,6 +106,7 @@ namespace Com.COLORSGAMES.TANKGAMES
 
         private void FixedUpdate()
         {
+            // on/off line track
             if (gameObject.GetComponent<Rigidbody>() & line != null)
             {
                 //transform.parent = null;
@@ -136,14 +133,14 @@ namespace Com.COLORSGAMES.TANKGAMES
                 }
                 else
                 {
-                    if (type == TypeChip.Soft)
+                    if (type == TypeChip.SoftRaycast)
                         _speed = rigid.velocity.magnitude;
                 }
             }
 
-            if (type == TypeChip.Soft) return;
+            if (type == TypeChip.SoftRaycast) return;
 
-            if (type != TypeChip.Simple)
+            if (type != TypeChip.SimpleRaycast)
             {
                 if (transform.parent == null)
                 {
@@ -223,6 +220,7 @@ namespace Com.COLORSGAMES.TANKGAMES
 
         private void OnTriggerEnter(Collider other)
         {
+            // works if the object being collided with has a trigger
             if (_speed >= maxSpeed)
             {
                 // print("SpeedMax");
@@ -243,7 +241,7 @@ namespace Com.COLORSGAMES.TANKGAMES
 
         private void OnDrawGizmos()
         {
-            if (type == TypeChip.Hard)
+            if (type == TypeChip.HardRaycast)
             {
                 Gizmos.color = Color.green;
                 Gizmos.DrawRay(transform.position, transform.TransformDirection(Vector3.up) * _distance);
@@ -253,7 +251,7 @@ namespace Com.COLORSGAMES.TANKGAMES
                 Gizmos.DrawRay(transform.position, transform.TransformDirection(Vector3.left) * _distance);
                 Gizmos.DrawRay(transform.position, transform.TransformDirection(Vector3.right) * _distance);
             }
-            if (type == TypeChip.Sphere)
+            if (type == TypeChip.HardOverlapeSphere)
             {
                 Gizmos.DrawWireSphere(transform.position, _radius);
             }
