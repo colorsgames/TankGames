@@ -21,6 +21,8 @@ namespace Com.COLORSGAMES.TANKGAMES
         private Vector3 screenOffset;
         [SerializeField]
         private float scaleFactor = 10;
+        [SerializeField]
+        private float visibilityDistance;
 
         Vector3 targetPos;
         Vector3 oldScale;
@@ -40,25 +42,26 @@ namespace Com.COLORSGAMES.TANKGAMES
 
             if (photonView.IsMine)
             {
-                Destroy(gameObject);
+                //Destroy(gameObject);
             }
         }
 
         private void LateUpdate()
         {
-            if (CamController.checkVisable(cam, playerCollider))
+            targetPos = player.transform.position + screenOffset;
+            transform.position = cam.WorldToScreenPoint(targetPos);
+
+            Vector3 offsetToTarget = targetPos - cam.transform.position;
+            float distance = offsetToTarget.magnitude;
+
+            transform.localScale = (oldScale / distance) * scaleFactor;
+
+            if (CamController.checkVisable(cam, playerCollider) && distance <= visibilityDistance)
             {
                 child.SetActive(true);
             }
             else
                 child.SetActive(false);
-
-            targetPos = player.transform.position + screenOffset;
-            transform.position = cam.WorldToScreenPoint(targetPos);
-
-            Vector3 offsetToTarget = targetPos - cam.transform.position;
-
-            transform.localScale = (oldScale / offsetToTarget.magnitude) * scaleFactor;
 
             playerNameText.text = player.photonView.Owner.NickName;
             healthBar.fillAmount = player.curretHealth / player.maxHealth;
