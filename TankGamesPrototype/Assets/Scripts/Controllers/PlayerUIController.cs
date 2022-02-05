@@ -42,7 +42,7 @@ namespace Com.COLORSGAMES.TANKGAMES
 
             if (photonView.IsMine)
             {
-                //Destroy(gameObject);
+                Destroy(gameObject);
             }
         }
 
