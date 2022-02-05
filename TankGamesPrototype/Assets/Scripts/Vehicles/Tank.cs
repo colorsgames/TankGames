@@ -36,7 +36,6 @@ namespace Com.COLORSGAMES.TANKGAMES
             {
                 if (Alive)
                 {
-                    Coup();
                     if (tower != null)
                     {
                         tower.TowerMovement(speedTower, speedGun, minAngle, maxAngle);
