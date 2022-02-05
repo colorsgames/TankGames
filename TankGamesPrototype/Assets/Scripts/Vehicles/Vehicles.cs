@@ -40,7 +40,6 @@ namespace Com.COLORSGAMES.TANKGAMES
             playerControllPanel = GameObject.Find("PlayerControllers");
             Alive = true;
             SetCenterOfMass(RigidB, centerOfMass);
-            SetWheelsColliders();
         }
 
         public virtual void Acceleration()
@@ -75,7 +74,6 @@ namespace Com.COLORSGAMES.TANKGAMES
             Vis.rotation = rot;
         }
 
-
         public void Coup()
         {
             foreach (WheelCollider item in wheels)
@@ -94,7 +92,8 @@ namespace Com.COLORSGAMES.TANKGAMES
 
         public void SetWheelsColliders()
         {
-            wheels = GameObject.FindObjectsOfType<WheelCollider>();
+            if(photonView.IsMine)
+                wheels = GameObject.FindObjectsOfType<WheelCollider>();
         }
 
         public void SetCenterOfMass(Rigidbody rb, Transform target)
