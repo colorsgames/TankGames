@@ -1262,7 +1262,7 @@ MonoBehaviour:
   prefixField: -1
   Synchronization: 3
   OwnershipTransfer: 0
-  observableSearch: 2
+  observableSearch: 0
   ObservedComponents:
   - {fileID: 2261124185847668809}
   - {fileID: 2314437540598924663}
@@ -2310,7 +2310,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5735167589769136221}
-  - component: {fileID: 3412117002222587653}
+  - component: {fileID: 7934573472741775273}
   m_Layer: 0
   m_Name: L
   m_TagString: Untagged
@@ -2336,7 +2336,7 @@ Transform:
   m_Father: {fileID: 5735167590137759756}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3412117002222587653
+--- !u!114 &7934573472741775273
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2353,8 +2353,12 @@ MonoBehaviour:
   prefixField: -1
   Synchronization: 3
   OwnershipTransfer: 0
-  observableSearch: 2
-  ObservedComponents: []
+  observableSearch: 0
+  ObservedComponents:
+  - {fileID: 5948772704756320502}
+  - {fileID: 8864559578909717646}
+  - {fileID: 6293709458896097420}
+  - {fileID: 1962600396094787076}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
