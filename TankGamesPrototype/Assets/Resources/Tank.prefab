@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 429302058608458269}
   - component: {fileID: 2188068799609444400}
   - component: {fileID: 8133109292936051625}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: PlayerUIInfo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ MonoBehaviour:
   playerNameText: {fileID: 4882662040475211393}
   healthBar: {fileID: 7655133143683015241}
   player: {fileID: 5735167589128594597}
-  newPosition: {x: 0, y: 0, z: 0}
+  screenOffset: {x: 0, y: 2, z: 0}
 --- !u!114 &8133109292936051625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 7028244797536115843}
   - component: {fileID: 8982202045807540773}
   - component: {fileID: 7655133143683015241}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2699,7 +2699,7 @@ GameObject:
   - component: {fileID: 8439222936220295088}
   - component: {fileID: 2318824872228417933}
   - component: {fileID: 125432240430256301}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: HealthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2775,7 +2775,7 @@ GameObject:
   - component: {fileID: 2134840629375526433}
   - component: {fileID: 20571807409180533}
   - component: {fileID: 4029853029175451592}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2823,7 +2823,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.16037738, g: 0.16037738, b: 0.16037738, a: 0.3764706}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -2850,7 +2850,7 @@ GameObject:
   - component: {fileID: 3755127081700269051}
   - component: {fileID: 1103266550458880231}
   - component: {fileID: 4882662040475211393}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: PlayerName
   m_TagString: Untagged
   m_Icon: {fileID: 0}

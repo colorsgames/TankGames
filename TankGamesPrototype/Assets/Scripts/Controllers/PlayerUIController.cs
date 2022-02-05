@@ -16,7 +16,12 @@ namespace Com.COLORSGAMES.TANKGAMES
         [SerializeField]
         private Vehicles player;
         [SerializeField]
-        private Vector3 newPosition;
+        private Vector3 screenOffset;
+        [SerializeField]
+        private float scaleFactor = 10;
+
+        Vector3 targetPos;
+        Vector3 oldScale;
 
         Camera cam;
         Canvas canvas;
@@ -26,7 +31,7 @@ namespace Com.COLORSGAMES.TANKGAMES
         {
             canvas = GameObject.Find("Canvas").GetComponent<Canvas>();
             transform.parent = canvas.transform;
-
+            oldScale = transform.localScale;
             cam = Camera.main;
 
             if (photonView.IsMine)
@@ -37,7 +42,12 @@ namespace Com.COLORSGAMES.TANKGAMES
 
         private void LateUpdate()
         {
-            transform.position = (Vector2)cam.WorldToScreenPoint(player.transform.position + newPosition);
+            targetPos = player.transform.position + screenOffset;
+            transform.position = (Vector2)cam.WorldToScreenPoint(targetPos);
+
+            Vector3 offsetToTarget = targetPos - cam.transform.position;
+
+            transform.localScale = (oldScale / offsetToTarget.magnitude) * scaleFactor;
 
             playerNameText.text = player.photonView.Owner.NickName;
             healthBar.fillAmount = player.curretHealth / player.maxHealth;
