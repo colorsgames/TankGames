@@ -43,7 +43,7 @@ namespace Com.COLORSGAMES.TANKGAMES
         private void LateUpdate()
         {
             targetPos = player.transform.position + screenOffset;
-            transform.position = (Vector2)cam.WorldToScreenPoint(targetPos);
+            transform.position = cam.WorldToScreenPoint(targetPos);
 
             Vector3 offsetToTarget = targetPos - cam.transform.position;
 
