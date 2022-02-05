@@ -56,6 +56,7 @@ MonoBehaviour:
   healthBar: {fileID: 7655133143683015241}
   player: {fileID: 5735167589128594597}
   screenOffset: {x: 0, y: 2, z: 0}
+  scaleFactor: 10
 --- !u!114 &8133109292936051625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1607,8 +1608,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3
+  m_TeleportEnabled: 1
+  m_TeleportIfDistanceGreaterThan: 0.5
 --- !u!1 &5735167589141780780
 GameObject:
   m_ObjectHideFlags: 0
