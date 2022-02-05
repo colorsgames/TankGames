@@ -18,36 +18,29 @@ namespace Com.COLORSGAMES.TANKGAMES
         [SerializeField]
         private Vector3 newPosition;
 
-        Transform oldParent;
-
+        Camera cam;
         Canvas canvas;
 
-        Camera cam;
 
         private void Start()
         {
-            canvas = GetComponent<Canvas>();
+            canvas = GameObject.Find("Canvas").GetComponent<Canvas>();
+            transform.parent = canvas.transform;
+
             cam = Camera.main;
-            canvas.worldCamera = cam;
-            oldParent = transform.parent;
 
             if (photonView.IsMine)
             {
-                this.gameObject.SetActive(false);
-            }
-            else
-            {
-                this.gameObject.SetActive(true);
+                Destroy(gameObject);
             }
         }
 
-        private void Update()
+        private void LateUpdate()
         {
-            transform.position = oldParent.position + newPosition;
+            transform.position = (Vector2)cam.WorldToScreenPoint(player.transform.position + newPosition);
 
             playerNameText.text = player.photonView.Owner.NickName;
             healthBar.fillAmount = player.curretHealth / player.maxHealth;
-            transform.LookAt(cam.transform.position);
         }
     }
 }

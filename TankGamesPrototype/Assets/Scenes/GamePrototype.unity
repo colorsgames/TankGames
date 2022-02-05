@@ -2385,7 +2385,7 @@ GameObject:
   - component: {fileID: 934520181}
   - component: {fileID: 934520182}
   m_Layer: 0
-  m_Name: UIInfo
+  m_Name: LocalPlayerUIInfo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
