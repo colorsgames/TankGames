@@ -20,10 +20,7 @@ namespace Com.COLORSGAMES.TANKGAMES
 
         private void Update()
         {
-            if (photonView.IsMine)
-            {
-                transform.position = oldParent.position + newPosition;
-            }
+            transform.position = oldParent.position + newPosition;
         }
     }
 }

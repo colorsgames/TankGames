@@ -16,6 +16,8 @@ namespace Com.COLORSGAMES.TANKGAMES
         [SerializeField]
         private Vehicles player;
         [SerializeField]
+        private GameObject child;
+        [SerializeField]
         private Vector3 screenOffset;
         [SerializeField]
         private float scaleFactor = 10;
@@ -26,6 +28,7 @@ namespace Com.COLORSGAMES.TANKGAMES
         Camera cam;
         Canvas canvas;
 
+        Collider playerCollider;
 
         private void Start()
         {
@@ -33,6 +36,7 @@ namespace Com.COLORSGAMES.TANKGAMES
             transform.parent = canvas.transform;
             oldScale = transform.localScale;
             cam = Camera.main;
+            playerCollider = player.GetComponent<Collider>();
 
             if (photonView.IsMine)
             {
@@ -42,6 +46,13 @@ namespace Com.COLORSGAMES.TANKGAMES
 
         private void LateUpdate()
         {
+            if (CamController.checkVisable(cam, playerCollider))
+            {
+                child.SetActive(true);
+            }
+            else
+                child.SetActive(false);
+
             targetPos = player.transform.position + screenOffset;
             transform.position = cam.WorldToScreenPoint(targetPos);
 

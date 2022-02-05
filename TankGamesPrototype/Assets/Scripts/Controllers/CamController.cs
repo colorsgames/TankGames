@@ -104,5 +104,10 @@ namespace Com.COLORSGAMES.TANKGAMES
 
             isFollowing = true;
         }
+
+        static public bool checkVisable(Camera _cam, Collider collider)
+        {
+            return GeometryUtility.TestPlanesAABB(GeometryUtility.CalculateFrustumPlanes(_cam), collider.bounds);
+        }
     }
 }
