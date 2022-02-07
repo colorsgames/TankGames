@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using Photon.Pun;
 using Photon.Realtime;
 
@@ -8,6 +9,8 @@ namespace Com.COLORSGAMES.TANKGAMES
 {
     abstract public class Vehicles : MonoBehaviourPunCallbacks, IPunObservable
     {
+        public static UnityEvent playerEvent = new UnityEvent();
+
         public float motorForce;
         public float explosionForce;
         public float angle;
@@ -36,7 +39,8 @@ namespace Com.COLORSGAMES.TANKGAMES
 
         protected virtual void Start()
         {
-            //tower = GameObject.FindObjectOfType<Tower>();
+            if (photonView.IsMine)
+                playerEvent.Invoke();
             RigidB = GetComponent<Rigidbody>();
             centerOfMass = GameObject.Find("CenterOfMass").transform;
             CurretHealth = maxHealth;

@@ -33,6 +33,11 @@ namespace Com.COLORSGAMES.TANKGAMES
 
         Camera cam;
 
+        private void Start()
+        {
+            Vehicles.playerEvent.AddListener(StartFollowing);
+        }
+
         private void LateUpdate()
         {
             if (!isFollowing) return;
@@ -50,7 +55,12 @@ namespace Com.COLORSGAMES.TANKGAMES
 
             rotX = Mathf.Clamp(rotX, minAngle, maxAngle);
 
-            Quaternion rotation = Quaternion.Euler(-rotX, rotY, 0);
+            if (!GameManager.isBlueTeam)
+            {
+                rotX *= -1;
+            }
+
+            Quaternion rotation = Quaternion.Euler(rotX, rotY, 0);
 
             transform.position = lookTarget.position - (rotation * offset);
             targetTower.position = lookTarget.position - (rotation * targetTowerOffset);
@@ -104,7 +114,14 @@ namespace Com.COLORSGAMES.TANKGAMES
             rotX = transform.eulerAngles.x;
             rotY = transform.eulerAngles.y;
 
-            transform.position += new Vector3(lookTarget.position.x, 0, lookTarget.position.z);
+            float camZoffset = 10;
+
+            if (!GameManager.isBlueTeam)
+            {
+                camZoffset *= -1;
+            }
+
+            transform.position = lookTarget.position + new Vector3(0, 0, camZoffset);
 
             oldRotX = rotX;
             offset = lookTarget.position - transform.position;

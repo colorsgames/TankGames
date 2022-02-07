@@ -13,23 +13,6 @@ namespace Com.COLORSGAMES.TANKGAMES
         Tower tower;
         CamController camController;
 
-        protected override void Start()
-        {
-            base.Start();
-            camController = Camera.main.GetComponent<CamController>();
-            if (camController != null)
-            {
-                if (photonView.IsMine)
-                {
-                    camController.StartFollowing();
-                }
-            }
-            else
-            {
-                Debug.LogError("camController is null", this);
-            }
-        }
-
         private void Update()
         {
             if (photonView.IsMine)

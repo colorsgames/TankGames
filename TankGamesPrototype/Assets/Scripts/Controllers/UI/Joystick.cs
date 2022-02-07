@@ -23,6 +23,19 @@ namespace Com.COLORSGAMES.TANKGAMES
 
         int joyTouchIndex;
 
+        private void Start()
+        {
+            startPosition = transform.position;
+            player = GameObject.FindObjectOfType<Vehicles>();
+        }
+
+        private void Update()
+        {
+            if (!activate)
+            {
+                touchPoint.position = Vector3.Lerp(touchPoint.position, startPosition, returnSpeed * Time.deltaTime);
+            }
+        }
 
         public void OnDrag(PointerEventData eventData)
         {
@@ -84,20 +97,6 @@ namespace Com.COLORSGAMES.TANKGAMES
             player.SteerAngleInput = 0;
 
             activate = false;
-        }
-
-        private void Start()
-        {
-            startPosition = transform.position;
-            player = GameObject.FindObjectOfType<Vehicles>();
-        }
-
-        private void Update()
-        {
-            if (!activate)
-            {
-                touchPoint.position = Vector3.Lerp(touchPoint.position, startPosition, returnSpeed * Time.deltaTime);
-            }
         }
     }
 }
