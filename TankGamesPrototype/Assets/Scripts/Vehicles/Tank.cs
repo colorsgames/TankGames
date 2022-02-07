@@ -23,6 +23,7 @@ namespace Com.COLORSGAMES.TANKGAMES
                     {
                         tower.TowerMovement(speedTower, speedGun, minAngle, maxAngle);
                     }
+                    Coup();
                 }
                 else
                 {

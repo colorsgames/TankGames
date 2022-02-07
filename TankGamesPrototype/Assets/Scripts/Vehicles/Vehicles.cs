@@ -18,7 +18,7 @@ namespace Com.COLORSGAMES.TANKGAMES
         public float torqueForce;
         public float torqueSpeedMax;
         public float maxHealth;
-
+        [HideInInspector]
         public GameObject playerControllPanel;
 
         public float CurretHealth { get; protected set; }
@@ -30,19 +30,23 @@ namespace Com.COLORSGAMES.TANKGAMES
 
         protected Rigidbody RigidB { get; set; }
         protected WheelCollider[] wheels { get; private set; }
-        protected float CurretBrakeForce { get;set; }
+        protected float CurretBrakeForce { get; set; }
 
         public Transform centerOfMass;
+        public Transform targetCheckBox;
+        public Vector3 groundCheckBoxScale;
+        public LayerMask groundCheckMask;
         public AxleInfo[] axleInfos;
 
         float torqueSpeed;
+
+        bool collisied;
 
         protected virtual void Start()
         {
             if (photonView.IsMine)
                 playerEvent.Invoke();
             RigidB = GetComponent<Rigidbody>();
-            centerOfMass = GameObject.Find("CenterOfMass").transform;
             CurretHealth = maxHealth;
             playerControllPanel = GameObject.Find("PlayerControllers");
             Alive = true;
@@ -56,7 +60,7 @@ namespace Com.COLORSGAMES.TANKGAMES
             {
                 if (item.isMotor && Alive)
                 {
-                    if(Application.platform == RuntimePlatform.WindowsEditor || Application.platform == RuntimePlatform.WindowsPlayer)
+                    if (Application.platform == RuntimePlatform.WindowsEditor || Application.platform == RuntimePlatform.WindowsPlayer)
                     {
                         MotorInput = Input.GetAxis("Vertical");
                     }
@@ -74,7 +78,7 @@ namespace Com.COLORSGAMES.TANKGAMES
                     item.LeftCollider.steerAngle = angle * SteerAngleInput;
                 }
 
-                if(item.isBrake && Alive)
+                if (item.isBrake && Alive)
                 {
                     if (Application.platform == RuntimePlatform.WindowsEditor || Application.platform == RuntimePlatform.WindowsPlayer)
                     {
@@ -110,10 +114,11 @@ namespace Com.COLORSGAMES.TANKGAMES
 
         public void Coup()
         {
-            foreach (WheelCollider item in wheels)
+            bool isGrounded = Physics.CheckBox(targetCheckBox.position, groundCheckBoxScale, targetCheckBox.localRotation, groundCheckMask);
+
+            if (!isGrounded)
             {
-                WheelHit hit;
-                if (!item.GetGroundHit(out hit))
+                if (collisied)
                 {
                     torqueSpeed = Mathf.Abs(RigidB.angularVelocity.z);
                     if (torqueSpeed < torqueSpeedMax)
@@ -126,7 +131,7 @@ namespace Com.COLORSGAMES.TANKGAMES
 
         public void SetWheelsColliders()
         {
-            if(photonView.IsMine)
+            if (photonView.IsMine)
                 wheels = GameObject.FindObjectsOfType<WheelCollider>();
         }
 
@@ -157,6 +162,21 @@ namespace Com.COLORSGAMES.TANKGAMES
             {
                 CurretHealth = (float)stream.ReceiveNext();
             }
+        }
+
+        private void OnDrawGizmos()
+        {
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawWireCube(targetCheckBox.position, groundCheckBoxScale);
+        }
+
+        private void OnCollisionStay(Collision collision)
+        {
+            collisied = true;
+        }
+        private void OnCollisionExit(Collision collision)
+        {
+            collisied = false;
         }
     }
 }

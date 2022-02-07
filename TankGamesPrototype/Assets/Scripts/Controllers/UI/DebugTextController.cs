@@ -7,6 +7,8 @@ namespace Com.COLORSGAMES.TANKGAMES
 {
     public class DebugTextController : MonoBehaviour
     {
+        public static DebugTextController Instance { get; private set; }
+
         [SerializeField]
         private float lifeTime = 8f;
 
@@ -17,6 +19,7 @@ namespace Com.COLORSGAMES.TANKGAMES
         private void Start()
         {
             text = GetComponent<TMP_Text>();
+            Instance = this;
         }
 
         private void Update()
@@ -34,7 +37,6 @@ namespace Com.COLORSGAMES.TANKGAMES
 
         public void Log(string mess)
         {
-            Debug.Log(mess);
             text.text += "\n";
             text.text += mess;
         }
