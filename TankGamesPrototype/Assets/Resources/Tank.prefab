@@ -819,6 +819,7 @@ MonoBehaviour:
   maxAmmo: 10
   force: 2000
   rechargeTime: 2
+  photonView: {fileID: 5792471421349592784}
   targetInstance: {fileID: 5735167588707928211}
   shell: {fileID: 3694772294147464758, guid: bd839b10cbffa19418514ad28435a3e3, type: 3}
 --- !u!114 &1769626064426396248

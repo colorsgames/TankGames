@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 namespace Com.COLORSGAMES.TANKGAMES
 {
@@ -11,6 +12,8 @@ namespace Com.COLORSGAMES.TANKGAMES
 
         public float force;
         public float rechargeTime;
+
+        public PhotonView photonView;
 
         public int curretAmmo { get; protected set; }
         protected bool recharging;

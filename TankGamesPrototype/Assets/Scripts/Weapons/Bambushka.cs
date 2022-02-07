@@ -21,13 +21,16 @@ namespace Com.COLORSGAMES.TANKGAMES
         {
             if (Application.platform == RuntimePlatform.WindowsEditor || Application.platform == RuntimePlatform.WindowsPlayer)
             {
-                if (Input.GetMouseButtonDown(0))
+                if (photonView.IsMine)
                 {
-                    Shot();
-                }
-                if (Input.GetKeyDown(KeyCode.R))
-                {
-                    StartRecharge();
+                    if (Input.GetMouseButtonDown(0))
+                    {
+                        Shot();
+                    }
+                    if (Input.GetKeyDown(KeyCode.R))
+                    {
+                        StartRecharge();
+                    }
                 }
             }
             if (recharging)
