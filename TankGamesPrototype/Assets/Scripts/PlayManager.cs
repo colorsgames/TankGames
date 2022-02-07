@@ -19,7 +19,7 @@ namespace Com.COLORSGAMES.TANKGAMES
 
         Scene curretScene;
 
-        private void Start()
+        private void Awake()
         {
             curretScene = SceneManager.GetActiveScene();
             PhotonNetwork.Instantiate(playerPrefab.name, new Vector3(Random.Range(-8, 8), 3, 0), Quaternion.identity, 0);

@@ -501,6 +501,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MaxPlayers: 4
+  sceneIndex: 2
   controlPanel: {fileID: 1191835755}
   connectText: {fileID: 907519384}
   debugText: {fileID: 434591303}

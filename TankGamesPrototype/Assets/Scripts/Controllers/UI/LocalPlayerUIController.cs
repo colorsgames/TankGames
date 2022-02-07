@@ -16,18 +16,25 @@ namespace Com.COLORSGAMES.TANKGAMES
 
         Vehicles vehicle;
 
+        GameObject playerUIControl;
+
         private void Start()
         {
             ammoText = GameObject.Find("AmmoText").GetComponent<TMP_Text>();
-            weapons = GameObject.FindObjectOfType<Weapons>();
+            weapons = FindObjectOfType<Weapons>();
             healthBar = GameObject.Find("Health").GetComponent<Image>();
-            vehicle = GameObject.FindObjectOfType<Vehicles>();
+            vehicle = FindObjectOfType<Vehicles>();
+            playerUIControl = GameObject.Find("PlayerControllers");
+            if(Application.platform == RuntimePlatform.WindowsEditor || Application.platform == RuntimePlatform.WindowsPlayer)
+            {
+                playerUIControl.SetActive(false);
+            }
         }
 
         private void Update()
         {
             ammoText.text = "Ammo: " + weapons.curretAmmo + " / " + weapons.allAmmo;
-            healthBar.fillAmount = vehicle.curretHealth / vehicle.maxHealth;
+            healthBar.fillAmount = vehicle.CurretHealth / vehicle.maxHealth;
         }
     }
 }

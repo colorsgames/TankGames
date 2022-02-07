@@ -13,6 +13,7 @@ namespace Com.COLORSGAMES.TANKGAMES
     public class Launcher : MonoBehaviourPunCallbacks
     {
         public byte MaxPlayers;
+        public int sceneIndex;
 
         [SerializeField]
         private GameObject controlPanel;
@@ -68,7 +69,7 @@ namespace Com.COLORSGAMES.TANKGAMES
         public override void OnJoinedRoom()
         {
             debugText.Log("Join room");
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(sceneIndex);
         }
 
         public override void OnDisconnected(DisconnectCause cause)

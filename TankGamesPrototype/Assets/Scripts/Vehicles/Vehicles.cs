@@ -8,23 +8,26 @@ namespace Com.COLORSGAMES.TANKGAMES
 {
     abstract public class Vehicles : MonoBehaviourPunCallbacks, IPunObservable
     {
-        public float force;
+        public float motorForce;
         public float explosionForce;
         public float angle;
+        public float brakeForce;
         public float torqueForce;
         public float torqueSpeedMax;
         public float maxHealth;
 
         public GameObject playerControllPanel;
 
-        public float curretHealth { get; protected set; }
-        public float MotorForce { get; set; }
-        public float SteerAngle { get; set; }
+        public float CurretHealth { get; protected set; }
+        public float MotorInput { get; set; }
+        public float SteerAngleInput { get; set; }
+        public float BrakedInput { get; set; }
 
         public bool Alive { get; protected set; }
 
         protected Rigidbody RigidB { get; set; }
         protected WheelCollider[] wheels { get; private set; }
+        protected float CurretBrakeForce { get;set; }
 
         public Transform centerOfMass;
         public AxleInfo[] axleInfos;
@@ -36,10 +39,11 @@ namespace Com.COLORSGAMES.TANKGAMES
             //tower = GameObject.FindObjectOfType<Tower>();
             RigidB = GetComponent<Rigidbody>();
             centerOfMass = GameObject.Find("CenterOfMass").transform;
-            curretHealth = maxHealth;
+            CurretHealth = maxHealth;
             playerControllPanel = GameObject.Find("PlayerControllers");
             Alive = true;
             SetCenterOfMass(RigidB, centerOfMass);
+            CurretBrakeForce = brakeForce;
         }
 
         public virtual void Acceleration()
@@ -48,14 +52,40 @@ namespace Com.COLORSGAMES.TANKGAMES
             {
                 if (item.isMotor && Alive)
                 {
-                    item.RightCollider.motorTorque = force * MotorForce;
-                    item.LeftCollider.motorTorque = force * MotorForce;
+                    if(Application.platform == RuntimePlatform.WindowsEditor || Application.platform == RuntimePlatform.WindowsPlayer)
+                    {
+                        MotorInput = Input.GetAxis("Vertical");
+                    }
+                    item.RightCollider.motorTorque = motorForce * MotorInput;
+                    item.LeftCollider.motorTorque = motorForce * MotorInput;
                 }
 
                 if (item.isSteering && Alive)
                 {
-                    item.RightCollider.steerAngle = angle * SteerAngle;
-                    item.LeftCollider.steerAngle = angle * SteerAngle;
+                    if (Application.platform == RuntimePlatform.WindowsEditor || Application.platform == RuntimePlatform.WindowsPlayer)
+                    {
+                        SteerAngleInput = Input.GetAxis("Horizontal");
+                    }
+                    item.RightCollider.steerAngle = angle * SteerAngleInput;
+                    item.LeftCollider.steerAngle = angle * SteerAngleInput;
+                }
+
+                if(item.isBrake && Alive)
+                {
+                    if (Application.platform == RuntimePlatform.WindowsEditor || Application.platform == RuntimePlatform.WindowsPlayer)
+                    {
+                        BrakedInput = Input.GetAxis("Jump");
+                    }
+
+                    if (item.isSteering)
+                    {
+                        brakeForce = CurretBrakeForce * 4;
+                    }
+                    else
+                        brakeForce = CurretBrakeForce;
+
+                    item.RightCollider.brakeTorque = brakeForce * BrakedInput;
+                    item.LeftCollider.brakeTorque = brakeForce * BrakedInput;
                 }
 
                 VisWheelToCollider(item.RightVisWheel, item.RightCollider);
@@ -84,7 +114,7 @@ namespace Com.COLORSGAMES.TANKGAMES
                     torqueSpeed = Mathf.Abs(RigidB.angularVelocity.z);
                     if (torqueSpeed < torqueSpeedMax)
                     {
-                        RigidB.AddTorque(transform.forward * torqueForce * SteerAngle, ForceMode.Acceleration);
+                        RigidB.AddTorque(transform.forward * torqueForce * SteerAngleInput, ForceMode.Acceleration);
                     }
                 }
             }
@@ -103,7 +133,7 @@ namespace Com.COLORSGAMES.TANKGAMES
 
         public void Damage(float damage)
         {
-            curretHealth -= damage;
+            CurretHealth -= damage;
         }
 
         public void Destroy()
@@ -117,11 +147,11 @@ namespace Com.COLORSGAMES.TANKGAMES
         {
             if (stream.IsWriting)
             {
-                stream.SendNext(curretHealth);
+                stream.SendNext(CurretHealth);
             }
             else
             {
-                curretHealth = (float)stream.ReceiveNext();
+                CurretHealth = (float)stream.ReceiveNext();
             }
         }
     }

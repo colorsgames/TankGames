@@ -16,5 +16,13 @@ namespace Com.COLORSGAMES.TANKGAMES
         {
             Gun.StartRecharge();
         }
+
+        public override void OnPointerDown(PointerEventData eventData)
+        {
+        }
+
+        public override void OnPointerUp(PointerEventData eventData)
+        {
+        }
     }
 }

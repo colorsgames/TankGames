@@ -36,6 +36,13 @@ namespace Com.COLORSGAMES.TANKGAMES
         private void LateUpdate()
         {
             if (!isFollowing) return;
+
+            if (Application.platform == RuntimePlatform.WindowsEditor || Application.platform == RuntimePlatform.WindowsPlayer)
+            {
+                rotInput.x += Input.GetAxis("Mouse Y") * sensitivity * 5 * Time.fixedDeltaTime;
+                rotInput.y += Input.GetAxis("Mouse X") * sensitivity * 5 * Time.fixedDeltaTime;
+            }
+
             rotInput.x = Mathf.Clamp(rotInput.x, minAngle, maxAngle);
 
             rotX = rotInput.x;
@@ -84,6 +91,11 @@ namespace Com.COLORSGAMES.TANKGAMES
 
         public void StartFollowing()
         {
+            if(Application.platform == RuntimePlatform.WindowsEditor || Application.platform == RuntimePlatform.WindowsPlayer)
+            {
+                Cursor.lockState = CursorLockMode.Locked;
+            }
+
             targetTower = GameObject.Find("TowerTarget").transform;
             lookTarget = GameObject.Find("CamLookTarget").transform;
 

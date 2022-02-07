@@ -19,10 +19,16 @@ namespace Com.COLORSGAMES.TANKGAMES
 
         private void Update()
         {
-            if (Input.GetKeyDown(KeyCode.G))
+            if (Application.platform == RuntimePlatform.WindowsEditor || Application.platform == RuntimePlatform.WindowsPlayer)
             {
-                Shot();
-
+                if (Input.GetMouseButtonDown(0))
+                {
+                    Shot();
+                }
+                if (Input.GetKeyDown(KeyCode.R))
+                {
+                    StartRecharge();
+                }
             }
             if (recharging)
             {

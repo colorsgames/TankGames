@@ -64,7 +64,7 @@ namespace Com.COLORSGAMES.TANKGAMES
                 child.SetActive(false);
 
             playerNameText.text = player.photonView.Owner.NickName;
-            healthBar.fillAmount = player.curretHealth / player.maxHealth;
+            healthBar.fillAmount = player.CurretHealth / player.maxHealth;
         }
     }
 }

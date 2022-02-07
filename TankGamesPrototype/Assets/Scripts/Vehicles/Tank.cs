@@ -43,11 +43,11 @@ namespace Com.COLORSGAMES.TANKGAMES
                 }
                 else
                 {
-                    MotorForce = 0;
+                    MotorInput = 0;
                 }
                 Acceleration();
 
-                if (curretHealth <= 0 && Alive)
+                if (CurretHealth <= 0 && Alive)
                 {
                     Destroy();
                 }

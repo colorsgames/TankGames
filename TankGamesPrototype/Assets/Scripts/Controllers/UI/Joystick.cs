@@ -37,15 +37,15 @@ namespace Com.COLORSGAMES.TANKGAMES
                     touchPoint.position = Vector3.Lerp(touchPoint.position, touchPos, returnSpeed * Time.deltaTime);
 
                     inputVector /= radius;
-                    player.SteerAngle = inputVector.x; //передача значения поворота колеса
-                                                       //передача значений для силы ускорения
+                    player.SteerAngleInput = inputVector.x;
+
                     if (inputVector.y > 0)
                     {
-                        player.MotorForce = inputVector.magnitude;
+                        player.MotorInput = inputVector.magnitude;
                     }
                     else
                     {
-                        player.MotorForce = -inputVector.magnitude;
+                        player.MotorInput = -inputVector.magnitude;
                     }
                 }
                 else if (activate)
@@ -55,15 +55,15 @@ namespace Com.COLORSGAMES.TANKGAMES
                     touchPoint.position = Vector3.Lerp(touchPoint.position, state + startPosition, returnSpeed * Time.deltaTime);//движение по окружности в направлении нажатия
 
                     state /= radius;
-                    player.SteerAngle = state.normalized.x;
+                    player.SteerAngleInput = state.normalized.x;
 
                     if (inputVector.y > 0)
                     {
-                        player.MotorForce = state.magnitude;
+                        player.MotorInput = state.magnitude;
                     }
                     else
                     {
-                        player.MotorForce = -state.magnitude;
+                        player.MotorInput = -state.magnitude;
                     }
                 }
             }
@@ -80,8 +80,8 @@ namespace Com.COLORSGAMES.TANKGAMES
         {
             joyTouchIndex--;
 
-            player.MotorForce = 0;
-            player.SteerAngle = 0;
+            player.MotorInput = 0;
+            player.SteerAngleInput = 0;
 
             activate = false;
         }

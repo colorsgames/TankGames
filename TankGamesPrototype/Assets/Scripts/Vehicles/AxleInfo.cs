@@ -15,5 +15,6 @@ namespace Com.COLORSGAMES.TANKGAMES
 
         public bool isMotor;
         public bool isSteering;
+        public bool isBrake;
     }
 }
