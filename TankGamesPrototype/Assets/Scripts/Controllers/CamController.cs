@@ -99,7 +99,7 @@ namespace Com.COLORSGAMES.TANKGAMES
             }
         }
 
-        public void StartFollowing()
+        void StartFollowing()
         {
             if(Application.platform == RuntimePlatform.WindowsEditor || Application.platform == RuntimePlatform.WindowsPlayer)
             {
@@ -107,7 +107,7 @@ namespace Com.COLORSGAMES.TANKGAMES
             }
 
             targetTower = GameObject.Find("TowerTarget").transform;
-            lookTarget = GameObject.Find("CamLookTarget").transform;
+            lookTarget = FindObjectOfType<CamLookTargetController>().transform;
 
             targetTower.parent = null;
 
