@@ -48,7 +48,7 @@ namespace Com.COLORSGAMES.TANKGAMES
                 playerEvent.Invoke();
             RigidB = GetComponent<Rigidbody>();
             CurretHealth = maxHealth;
-            playerControllPanel = GameObject.Find("PlayerControllers");
+            playerControllPanel = GameObject.Find("Controllers");
             Alive = true;
             SetCenterOfMass(RigidB, centerOfMass);
             CurretBrakeForce = brakeForce;
