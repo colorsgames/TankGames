@@ -106,7 +106,7 @@ namespace Com.COLORSGAMES.TANKGAMES
                 Cursor.lockState = CursorLockMode.Locked;
             }
 
-            targetTower = GameObject.Find("TowerTarget").transform;
+            targetTower = FindObjectOfType<TowerTarget>().transform;
             lookTarget = FindObjectOfType<CamLookTargetController>().transform;
 
             //targetTower.parent = null;

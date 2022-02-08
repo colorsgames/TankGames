@@ -26,7 +26,7 @@ namespace Com.COLORSGAMES.TANKGAMES
         private void Start()
         {
             startPosition = transform.position;
-            player = GameObject.FindObjectOfType<Vehicles>();
+            player = FindObjectOfType<Vehicles>();
         }
 
         private void Update()
