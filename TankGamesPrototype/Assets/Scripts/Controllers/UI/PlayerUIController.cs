@@ -35,6 +35,8 @@ namespace Com.COLORSGAMES.TANKGAMES
         private void Start()
         {
             canvas = GameObject.Find("Canvas").GetComponent<Canvas>();
+            transform.parent = null;
+            transform.rotation = Quaternion.identity;
             transform.parent = canvas.transform;
             oldScale = transform.localScale;
             cam = Camera.main;
