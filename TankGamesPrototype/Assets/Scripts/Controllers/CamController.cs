@@ -35,7 +35,7 @@ namespace Com.COLORSGAMES.TANKGAMES
 
         private void Start()
         {
-            Vehicles.playerEvent.AddListener(StartFollowing);
+             Vehicles.playerEvent.AddListener(StartFollowing);
         }
 
         private void LateUpdate()
