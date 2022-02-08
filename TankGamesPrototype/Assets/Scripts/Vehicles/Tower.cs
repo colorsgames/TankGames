@@ -15,7 +15,7 @@ namespace Com.COLORSGAMES.TANKGAMES
         private void Awake()
         {
             //target = GameObject.Find("TowerTarget").transform;
-            gun = GameObject.Find("Gun").transform;
+            gun = FindObjectOfType<Weapons>().transform;
             cam = Camera.main.GetComponent<CamController>();
         }
 

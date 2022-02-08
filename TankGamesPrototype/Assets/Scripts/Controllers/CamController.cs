@@ -109,7 +109,7 @@ namespace Com.COLORSGAMES.TANKGAMES
             targetTower = GameObject.Find("TowerTarget").transform;
             lookTarget = FindObjectOfType<CamLookTargetController>().transform;
 
-            targetTower.parent = null;
+            //targetTower.parent = null;
 
             rotX = transform.eulerAngles.x;
             rotY = transform.eulerAngles.y;
