@@ -55,7 +55,7 @@ namespace Com.COLORSGAMES.TANKGAMES
 
             rotX = Mathf.Clamp(rotX, minAngle, maxAngle);
 
-            if (!GameManager.isBlueTeam)
+            if (GameManager.isRedTeam)
             {
                 rotX *= -1;
             }
@@ -116,7 +116,7 @@ namespace Com.COLORSGAMES.TANKGAMES
 
             float camZoffset = 10;
 
-            if (!GameManager.isBlueTeam)
+            if (GameManager.isRedTeam)
             {
                 camZoffset *= -1;
             }

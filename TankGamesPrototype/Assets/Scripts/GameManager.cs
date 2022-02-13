@@ -13,6 +13,7 @@ namespace Com.COLORSGAMES.TANKGAMES
     public class GameManager : MonoBehaviourPunCallbacks
     {
         public static bool isBlueTeam;
+        public static bool isRedTeam;
 
         [SerializeField]
         private GameObject playerPrefab;
@@ -62,7 +63,7 @@ namespace Com.COLORSGAMES.TANKGAMES
 
         public void RedTeam()
         {
-            isBlueTeam = false;
+            isRedTeam = true;
             randomSpawn = Random.Range(0, redTeamSpawners.Length);
             PhotonNetwork.Instantiate(playerPrefab.name, redTeamSpawners[randomSpawn].transform.position, redTeamSpawners[randomSpawn].transform.rotation, 0);
             NormalUI();

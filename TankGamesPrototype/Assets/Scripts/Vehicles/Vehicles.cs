@@ -27,6 +27,8 @@ namespace Com.COLORSGAMES.TANKGAMES
         public float BrakedInput { get; set; }
 
         public bool Alive { get; protected set; }
+        public bool meBlueTeam { get; protected set; }
+        public bool meRedTeam { get; protected set; }
 
         protected Rigidbody RigidB { get; set; }
         protected WheelCollider[] wheels { get; private set; }
@@ -47,10 +49,10 @@ namespace Com.COLORSGAMES.TANKGAMES
             if (photonView.IsMine)
                 playerEvent.Invoke();
             RigidB = GetComponent<Rigidbody>();
+            SetCenterOfMass(RigidB, centerOfMass);
             CurretHealth = maxHealth;
             playerControllPanel = GameObject.Find("PlayerControllers");
             Alive = true;
-            SetCenterOfMass(RigidB, centerOfMass);
             CurretBrakeForce = brakeForce;
         }
 
@@ -157,10 +159,14 @@ namespace Com.COLORSGAMES.TANKGAMES
             if (stream.IsWriting)
             {
                 stream.SendNext(CurretHealth);
+                stream.SendNext(meBlueTeam);
+                stream.SendNext(meRedTeam);
             }
             else
             {
                 CurretHealth = (float)stream.ReceiveNext();
+                meBlueTeam = (bool)stream.ReceiveNext();
+                meRedTeam = (bool)stream.ReceiveNext();
             }
         }
 

@@ -11,7 +11,40 @@ namespace Com.COLORSGAMES.TANKGAMES
 
         [SerializeField]
         Tower tower;
-        CamController camController;
+        [SerializeField]
+        GameObject teamDetector;
+
+        [SerializeField]
+        Color redTeamColor;
+        [SerializeField]
+        Color blueTeamColor;
+        [SerializeField]
+        Color noneTeamColor;
+
+        protected override void Start()
+        {
+            base.Start();
+            meBlueTeam = GameManager.isBlueTeam;
+            meRedTeam = GameManager.isRedTeam;
+
+            Material teamRend = teamDetector.GetComponent<MeshRenderer>().material;
+            if (meBlueTeam)
+            {
+                teamRend.color = blueTeamColor;
+                teamRend.SetColor("_EmissionColor", blueTeamColor);
+
+            }
+            else if (meRedTeam)
+            {
+                teamRend.color = redTeamColor;
+                teamRend.SetColor("_EmissionColor", redTeamColor);
+            }
+            else
+            {
+                teamRend.color = noneTeamColor;
+                teamRend.SetColor("_EmissionColor", noneTeamColor);
+            }
+        }
 
         private void Update()
         {
