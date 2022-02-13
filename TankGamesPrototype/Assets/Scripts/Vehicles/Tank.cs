@@ -24,8 +24,11 @@ namespace Com.COLORSGAMES.TANKGAMES
         protected override void Start()
         {
             base.Start();
-            meBlueTeam = GameManager.isBlueTeam;
-            meRedTeam = GameManager.isRedTeam;
+            if (photonView.IsMine)
+            {
+                meBlueTeam = GameManager.isBlueTeam;
+                meRedTeam = GameManager.isRedTeam;
+            }
 
             Material teamRend = teamDetector.GetComponent<MeshRenderer>().material;
             if (meBlueTeam)
