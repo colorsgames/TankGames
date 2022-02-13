@@ -164,7 +164,6 @@ namespace Com.COLORSGAMES.TANKGAMES
             }
             else
             {
-                print("Reading");
                 CurretHealth = (float)stream.ReceiveNext();
                 meBlueTeam = (bool)stream.ReceiveNext();
                 meRedTeam = (bool)stream.ReceiveNext();

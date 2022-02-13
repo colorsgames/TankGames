@@ -21,6 +21,8 @@ namespace Com.COLORSGAMES.TANKGAMES
         [SerializeField]
         Color noneTeamColor;
 
+        Material teamMat;
+
         protected override void Start()
         {
             base.Start();
@@ -29,24 +31,7 @@ namespace Com.COLORSGAMES.TANKGAMES
                 meBlueTeam = GameManager.isBlueTeam;
                 meRedTeam = GameManager.isRedTeam;
             }
-            Invoke("OnPhotonSerializeView", 0);
-            Material teamRend = teamDetector.GetComponent<MeshRenderer>().material;
-            if (meBlueTeam)
-            {
-                teamRend.color = blueTeamColor;
-                teamRend.SetColor("_EmissionColor", blueTeamColor);
-
-            }
-            else if (meRedTeam)
-            {
-                teamRend.color = redTeamColor;
-                teamRend.SetColor("_EmissionColor", redTeamColor);
-            }
-            else
-            {
-                teamRend.color = noneTeamColor;
-                teamRend.SetColor("_EmissionColor", noneTeamColor);
-            }
+            teamMat = teamDetector.GetComponent<MeshRenderer>().material;
         }
 
         private void Update()
@@ -72,7 +57,28 @@ namespace Com.COLORSGAMES.TANKGAMES
                     Destroy();
                 }
             }
+
+            ChangeTeamDetector();
         }
 
+        void ChangeTeamDetector()
+        {
+            if (meBlueTeam)
+            {
+                teamMat.color = blueTeamColor;
+                teamMat.SetColor("_EmissionColor", blueTeamColor);
+
+            }
+            else if (meRedTeam)
+            {
+                teamMat.color = redTeamColor;
+                teamMat.SetColor("_EmissionColor", redTeamColor);
+            }
+            else
+            {
+                teamMat.color = noneTeamColor;
+                teamMat.SetColor("_EmissionColor", noneTeamColor);
+            }
+        }
     }
 }
