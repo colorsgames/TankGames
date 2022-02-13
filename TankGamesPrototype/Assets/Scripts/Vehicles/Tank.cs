@@ -29,7 +29,7 @@ namespace Com.COLORSGAMES.TANKGAMES
                 meBlueTeam = GameManager.isBlueTeam;
                 meRedTeam = GameManager.isRedTeam;
             }
-
+            Invoke("OnPhotonSerializeView", 0);
             Material teamRend = teamDetector.GetComponent<MeshRenderer>().material;
             if (meBlueTeam)
             {
