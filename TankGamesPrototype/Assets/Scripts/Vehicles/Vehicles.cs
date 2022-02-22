@@ -32,7 +32,6 @@ namespace Com.COLORSGAMES.TANKGAMES
 
         protected Rigidbody RigidB { get; set; }
         protected WheelCollider[] wheels { get; private set; }
-        protected float CurretBrakeForce { get; set; }
 
         public Transform centerOfMass;
         public Transform targetCheckBox;
@@ -51,9 +50,9 @@ namespace Com.COLORSGAMES.TANKGAMES
             RigidB = GetComponent<Rigidbody>();
             SetCenterOfMass(RigidB, centerOfMass);
             CurretHealth = maxHealth;
-            playerControllPanel = GameObject.Find("PlayerControllers");
+            if (Application.platform == RuntimePlatform.Android)
+                playerControllPanel = GameObject.Find("PlayerControllers");
             Alive = true;
-            CurretBrakeForce = brakeForce;
         }
 
         public virtual void Acceleration()
@@ -86,13 +85,6 @@ namespace Com.COLORSGAMES.TANKGAMES
                     {
                         BrakedInput = Input.GetAxis("Jump");
                     }
-
-                    if (item.isSteering)
-                    {
-                        brakeForce = CurretBrakeForce * 4;
-                    }
-                    else
-                        brakeForce = CurretBrakeForce;
 
                     item.RightCollider.brakeTorque = brakeForce * BrakedInput;
                     item.LeftCollider.brakeTorque = brakeForce * BrakedInput;
@@ -149,9 +141,19 @@ namespace Com.COLORSGAMES.TANKGAMES
 
         public void Destroy()
         {
+            if (meBlueTeam)
+            {
+                CounterController.Instance.TeamCountUpdate(CounterController.Teams.Red, CounterController.Action.Add, 1);
+            }
+            else if (meRedTeam)
+            {
+                CounterController.Instance.TeamCountUpdate(CounterController.Teams.Blue, CounterController.Action.Add, 1);
+            }
+
             Alive = false;
             RigidB.AddForce(Vector3.up * explosionForce, ForceMode.Acceleration);
-            playerControllPanel.SetActive(false);
+            if(playerControllPanel != null)
+                playerControllPanel.SetActive(false);
         }
 
         public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)

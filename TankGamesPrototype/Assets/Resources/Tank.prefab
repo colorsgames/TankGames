@@ -1649,7 +1649,7 @@ MonoBehaviour:
   motorForce: 600
   explosionForce: 400
   angle: 45
-  brakeForce: 500
+  brakeForce: 2000
   torqueForce: 2
   torqueSpeedMax: 10
   maxHealth: 100
