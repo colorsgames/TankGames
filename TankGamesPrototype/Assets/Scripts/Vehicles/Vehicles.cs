@@ -152,7 +152,7 @@ namespace Com.COLORSGAMES.TANKGAMES
 
             Alive = false;
             RigidB.AddForce(Vector3.up * explosionForce, ForceMode.Acceleration);
-            if(playerControllPanel != null)
+            if (playerControllPanel != null)
                 playerControllPanel.SetActive(false);
         }
 

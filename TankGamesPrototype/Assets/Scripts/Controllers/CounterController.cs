@@ -21,7 +21,7 @@ public class CounterController : MonoBehaviour, IPunObservable
         Instance = this;
 
         redTeamCounter.text = System.Convert.ToString(RedTeamCount);
-        blueTeamCounter.text = System.Convert.ToString(RedTeamCount);
+        blueTeamCounter.text = System.Convert.ToString(BlueTeamCount);
     }
 
     public void TeamCountUpdate(Teams teams, Action action, int count)
@@ -65,7 +65,7 @@ public class CounterController : MonoBehaviour, IPunObservable
             BlueTeamCount = (int)stream.ReceiveNext();
 
             redTeamCounter.text = System.Convert.ToString(RedTeamCount);
-            blueTeamCounter.text = System.Convert.ToString(RedTeamCount);
+            blueTeamCounter.text = System.Convert.ToString(BlueTeamCount);
         }
     }
 
