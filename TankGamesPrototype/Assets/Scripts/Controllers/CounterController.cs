@@ -63,6 +63,9 @@ public class CounterController : MonoBehaviour, IPunObservable
         {
             RedTeamCount = (int)stream.ReceiveNext();
             BlueTeamCount = (int)stream.ReceiveNext();
+
+            redTeamCounter.text = System.Convert.ToString(RedTeamCount);
+            blueTeamCounter.text = System.Convert.ToString(RedTeamCount);
         }
     }
 
